@@ -16,11 +16,11 @@
 
 ## 目次
 
-- [準備：ハードウェア編](./docs/1-prep-hardware.md)
-- [準備：ソフトウェア編](./docs/2-prep-software.md)
-- [セットアップ編](./docs/3-setup.md)
-- [立ち上げ-運用編](./docs/4-use.md)
-- [トラブルシューティング](./docs/5-troubleshooting.md)
+- [準備：ハードウェア編](1-prep-hardware.md)
+- [準備：ソフトウェア編](2-prep-software.md)
+- [セットアップ編](3-setup.md)
+- [立ち上げ-運用編](4-use.md)
+- [トラブルシューティング](5-troubleshooting.md)
 
 ## ライセンス
 

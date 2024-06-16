@@ -35,8 +35,9 @@
 
 デバイス開発：
 
-- 伊藤隆之（シビック・クリエイティブ・ベース東京［CCBT］テクニカルディレクター）
-- イトウユウヤ（テクニカルディレクター／arsaffix）
+- [伊藤隆之](https://ccbt.rekibun.or.jp/players/ito-takayuki)（シビック・クリエイティブ・ベース東京［CCBT］テクニカルディレクター
+- [イトウユウヤ](https://ccbt.rekibun.or.jp/players/ito-takayuki)
+  （テクニカルディレクター／[arsaffix](https://arsaffix.com/)）
 - 三浦大輝（エンジニア）
 - 多田伊吹（筑波技術大学学生、CCBTインターン（2022-23年）／ろう者）
 

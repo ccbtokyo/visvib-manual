@@ -55,3 +55,23 @@
 - 篠塚正行
 - 小貫美奈（筑波技術大学）
 - ほか
+
+## Development
+
+### Install dependencies
+
+```zsh
+$ poetry install --no-root
+```
+
+### Build
+
+```zsh
+$ poetry run mkdocs build
+```
+
+### Serve
+
+```zsh
+$ poetry run mkdocs serve
+```

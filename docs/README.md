@@ -1,5 +1,7 @@
 # トーンチャイム→光/映像変換デバイス
 
+[![pages-build-deployment](https://github.com/ccbtokyo/amc-connect/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ccbtokyo/amc-connect/actions/workflows/pages/pages-build-deployment)
+
 [English version](README.en.md)
 
 ## 概要

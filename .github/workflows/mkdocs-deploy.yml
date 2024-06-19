@@ -34,4 +34,4 @@ jobs:
         run: poetry install --no-root
 
       - name: Deploy website
-        run: poetry run mkdocs gh-deploy
+        run: poetry run mkdocs gh-deploy --force

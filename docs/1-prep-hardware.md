@@ -34,9 +34,19 @@
 
 ### コンタクトマイク
 
-コンタクトマイクは特製のものを使用します。
+![特製マイクロフォンの画像。左側にはカバーありバージョン、右側にはカバーなしのバージョンが置かれている。](img/microphone.JPG)
 
-**[マイクの作成方法](./1-1-make-contact-microphone.md)**
+コンタクトマイクは特製のものを使用します。このマイクは、空気振動ではなく、貼り付けた物体の振動を直接拾うものです。
+
+このマイクは、ピエゾ素子という、安価な部品をケーブルにはんだ付けすることで、簡単に作ることができます。
+
+マイクの作成方法は、**[1-1 マイクの作成方法](./1-1-make-contact-microphone.md)** というドキュメントを参照してください。
+
+マイクに被せる専用のカバーは、 3Dプリンターで印刷することが可能です。こちらは、なくても動作には問題ありません。
+
+![カバーの3Dモデルのスクリーンショット画像。](./img/cover_3dmodel.png)
+
+![カバーを3Dプリントした直後の写真。サポート材がついた状態。](./img/3dprint_image.jpg)
 
 ## PC関係、映像関係
 
@@ -71,19 +81,39 @@ RME FireFace UFXなど、ライン入力が8ch以上使用できるインター�
 
 Aを所持している場合はそのまま使用しても問題なし。
 
-## オーディオトランスミッタ
+## オーディオトランスミッタ（無線接続の場合）
 
 [SENNHEISER EW 122P G4-JB](https://www.soundhouse.co.jp/products/detail/item/254766/)
 
-EW112PでもOK。
+EW112PでもOK。このトランスミッタは最大で8台まで同時使用が可能なため採用しているが、より少ないチャンネル数の構成の場合、もっと安価なものでも問題ない。会場で他のB帯を使用する機器と無線のチャンネルが干渉しないか注意。
+
+Bluetoothなどのトランスミッタでも良いが、遅延が発生する場合がある。
 
 ## 照明関係
 
-- ディマーパック：[AMERICAN DJ / DP415R](https://www.soundhouse.co.jp/products/detail/item/252223/)
-    - DMX信号を使ってAC100Vコンセントの電圧を制御する機器。
-- 白熱電球：クリップライトなど、普通のコンセントに挿さる白熱電球ならなんでもよい。ただし、蛍光灯、LED球は原則使用しないこと。調光対応のものであれば使用できるが、一定以上の暗さになると完全消灯してしまう。
-- [ENTEC DMX USB PRO](https://www.enttec.com/product/dmx-usb-interfaces/dmx-usb-pro-professional-1u-usb-to-dmx512-converter/)
+### ディマーパック
+
+![ディマーパックのアップ画像。](./img/dimmerpack.jpg)
+
+[AMERICAN DJ / DP415R](https://www.soundhouse.co.jp/products/detail/item/252223/)
+
+- DMX信号を使ってAC100Vコンセントの電圧を制御する機器。
+- 他の代替候補としては、Elation Cyber PakやLITE-PUTER DX-402Aなど。
+- どれも1台で4チャンネルまで制御できるため、5台以上照明を使う場合は2台必要。
+
+### DMX-USB変換アダプタ
+
+![DMX USB PROのアップ画像](./img/dmxusbpro.jpg)
+
+[ENTEC DMX USB PRO](https://www.enttec.com/product/dmx-usb-interfaces/dmx-usb-pro-professional-1u-usb-to-dmx512-converter/)
     - コンピューターからUSB経由でDMX信号を制御するための変換アダプタ。
+
+加えて以下のケーブルと変換アダプタも用意する。
+
 - XLRケーブル 3ピンのオーディオ用と同じものでOK。長さは必要に応じて。
 - XLRメス3ピン-XLR5オスピン　変換アダプタ
     - [NEUTRIK NA3F5M](https://www.soundhouse.co.jp/products/detail/item/236711/)など。
+
+### 白熱電球
+
+クリップライトなど、普通のコンセントに挿さる白熱電球ならなんでもよい。ただし、蛍光灯、LED球は原則使用しないこと。調光対応のものであれば使用できるが、一定以上の暗さになると完全消灯してしまう。

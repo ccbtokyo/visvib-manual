@@ -28,3 +28,13 @@ theme:
       - name: English
         link: /en/
         lang: en
+
+markdown_extensions:
+  - nl2br
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - callouts

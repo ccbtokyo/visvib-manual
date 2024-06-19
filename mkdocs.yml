@@ -1,0 +1,30 @@
+site_name: トーンチャイム→光/映像変換デバイス
+repo_url: https://github.com/ccbtokyo/amc-connect/
+docs_dir: 'docs'
+nav:
+  - Home: 'README.md'
+  - '準備':
+      - 'ハードウェア編':
+          - '1-prep-hardware.md'
+          - '1-1-make-contact-microphone.md'
+      - 'ソフトウェア編': '2-prep-software.md'
+  - 'セットアップ': '3-setup.md'
+  - '立ち上げ-運用編': '4-use.md'
+  - 'トラブルシューティング': '5-troubleshooting.md'
+
+# copyright: '©2024 CIVIC CREATIVE BASE TOKYO'
+
+theme:
+  name: material
+  language: ja
+  palette:
+    scheme: default
+    primary: black
+  font:
+    text: Noto Sans JP
+    code: M PLUS 1 Code
+  extra:
+    alternate:
+      - name: English
+        link: /en/
+        lang: en

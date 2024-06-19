@@ -8,21 +8,23 @@
 
 本プロジェクトで開発した成果をより広く共有するべく、システムをオープンソース化しています。
 
-デバイスやワークショップの開発過程は、[CCBTのリサーチノート](https://ccbt.rekibun.or.jp/research-notes/diverstiy-and-inclusion-project-02)で公開されています。
+デバイスやワークショップの開発過程は、
+[CCBTのリサーチノート](https://ccbt.rekibun.or.jp/research-notes/diverstiy-and-inclusion-project-02)で公開されています。
 
 [ここに動画を埋め込む]
 
 ## 目次
 
-- [準備：ハードウェア編](./docs/1-prep-hardware.md)
-- [準備：ソフトウェア編](./docs/2-prep-software.md)
-- [セットアップ編](./docs/3-setup.md)
-- [立ち上げ-運用編](./docs/4-use.md)
-- [トラブルシューティング](./docs/5-troubleshooting.md)
+- [準備：ハードウェア編](1-prep-hardware.md)
+- [準備：ソフトウェア編](2-prep-software.md)
+- [セットアップ編](3-setup.md)
+- [立ち上げ-運用編](4-use.md)
+- [トラブルシューティング](5-troubleshooting.md)
 
 ## [ライセンス](./LICENSE)
 
-本プロジェクトに関わるプログラムのソースコードは、MITライセンスで公開されています。また、プログラム以外のドキュメント、3Dモデルデータはクリエイティブ・コモンズ4.0-表示(CC4.0-BY)で公開されています。
+本プロジェクトに関わるプログラムのソースコードは、MITライセンスで公開されています。
+また、プログラム以外のドキュメント、3Dモデルデータはクリエイティブ・コモンズ4.0-表示(CC4.0-BY)で公開されています。
 
 ## クレジット
 
@@ -31,8 +33,9 @@
 
 デバイス開発：
 
-- 伊藤隆之（シビック・クリエイティブ・ベース東京［CCBT］テクニカルディレクター）
-- イトウユウヤ（テクニカルディレクター／arsaffix）
+- [伊藤隆之](https://ccbt.rekibun.or.jp/players/ito-takayuki)（シビック・クリエイティブ・ベース東京［CCBT］テクニカルディレクター
+- [イトウユウヤ](https://ccbt.rekibun.or.jp/players/ito-takayuki)
+  （テクニカルディレクター／[arsaffix](https://arsaffix.com/)）
 - 三浦大輝（エンジニア）
 - 多田伊吹（筑波技術大学学生、CCBTインターン（2022-23年）／ろう者）
 

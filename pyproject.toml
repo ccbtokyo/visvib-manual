@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "amc-connect"
+version = "0.1.0"
+description = "CCBTと大学・研究機関との協働事業「音楽デバイス開発プロジェクト」"
+authors = ["eotel <49769982+Eotel@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.6.0"
+mkdocs-material = "^9.5.26"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

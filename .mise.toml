@@ -1,0 +1,5 @@
+[tasks.mkdocs-build]
+run = "poetry run mkdocs build"
+
+[tasks.mkdocs-serve]
+run = "poetry run mkdocs serve"

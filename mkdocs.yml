@@ -1,16 +1,16 @@
-site_name: トーンチャイム→光/映像変換デバイス
-repo_url: https://github.com/ccbtokyo/amc-connect/
+site_name: VisVib：トーンチャイム→光/映像変換デバイス
+repo_url: https://github.com/ccbtokyo/visvib-manual/
 docs_dir: 'docs'
 nav:
   - Home: 'README.md'
   - '準備':
-      - 'ハードウェア編':
+      - '1.ハードウェア編':
           - '1-prep-hardware.md'
           - '1-1-make-contact-microphone.md'
-      - 'ソフトウェア編': '2-prep-software.md'
-  - 'セットアップ': '3-setup.md'
-  - '立ち上げ-運用編': '4-use.md'
-  - 'トラブルシューティング': '5-troubleshooting.md'
+      - '2.ソフトウェア編': '2-prep-software.md'
+  - '3.セットアップ': '3-setup.md'
+  - '4.立ち上げ-運用編': '4-use.md'
+  - '5.トラブルシューティング': '5-troubleshooting.md'
 
 # copyright: '©2024 CIVIC CREATIVE BASE TOKYO'
 

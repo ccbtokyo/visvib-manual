@@ -31,11 +31,11 @@ Strip about 15mm from one end, leaving the part inside the shield wire (the tubu
 
 ![Image of cable end. The shield wire part is twisted together. At the bottom, there are scraps of excess shield wire that have been cut off.](../img/cable3.jpg)
 
-Loosen the shield wire and twist it together. It's easier to solder if you cut off some excess before twisting so that the twisted thickness is about the same as the inner core wire.
+Loosen the shield wire and twist it together. It is easier to solder if you cut off some excess before twisting so that the twisted thickness is about the same as the inner core wire.
 
 ![Image of cable end. The inner core wire's insulation is stripped about 5mm.](../img/cable4.jpg)
 
-Strip about 5mm of the inner insulation as well, and lightly twist it. Some cables may have paper or fabric insulation inside the shield wire, so cut these off if they're in the way.
+Strip about 5mm of the inner insulation as well, and lightly twist it. Some cables may have paper or fabric insulation inside the shield wire, so cut these off if they are in the way.
 
 ### Soldering the Plug
 
@@ -53,13 +53,13 @@ Remove the cover of the stereo mini plug, and insert the core wire into the hole
 
 After soldering, lightly crimp the Sleeve terminal with pliers or similar, pass the plug cover through from the opposite side of the cable, and screw it in to secure.
 
-[^trs]: This connection method connects an unbalanced output piezo mic to the balanced input of an audio interface. There's another method where the Ring terminal (which we're not connecting here) is shorted with the Sleeve terminal. Using a mono (TS) plug would automatically create this connection. We've chosen this method based on overall considerations including ease of obtaining parts and simplicity of soldering.
+[^trs]: This connection method connects an unbalanced output piezo mic to the balanced input of an audio interface. There is another method where the Ring terminal (which we are not connecting here) is shorted with the Sleeve terminal. Using a mono (TS) plug would automatically create this connection. We have chosen this method based on overall considerations including ease of obtaining parts and simplicity of soldering.
 
 ### Passing the Heat Shrink Tube
 
 ![Image of tube passed through]()
 
-Cut the heat shrink tube to about 2-3cm and pass it through the cable in advance. Note that you won't be able to do this after soldering the mic, so be careful.
+Cut the heat shrink tube to about 2-3cm and pass it through the cable in advance. Note that you will not be able to do this after soldering the mic, so be careful.
 
 ### Soldering the Piezo Element
 
@@ -87,11 +87,11 @@ If necessary, protect the piezo mic with liquid rubber (the kind that dries natu
 
 ## Printing the Attachment Cover for Tone Chimes (Optional)
 
-The sensor is attached to the tone chime using reusable adhesive like Blu-Tack. As an option, we've created an attachment that can be 3D printed to protect the soldered part of the cable and make it easier to attach.
+The sensor is attached to the tone chime using reusable adhesive like Blu-Tack. As an option, we have made an attachment that can be 3D printed to protect the soldered part of the cable and make it easier to attach.
 
 ![Image of 3D model data for piezo cover.](../img/cover_3dmodel.png)
 
-As tone chimes come in two thicknesses depending on the pitch, we've prepared model data for both large and small sizes.
+As tone chimes come in two thicknesses depending on the pitch, we have prepared model data for both large and small sizes.
 
 |     |Main Cover|Cable Clip|
 |:---:| :-----: |:------:|
@@ -100,6 +100,6 @@ As tone chimes come in two thicknesses depending on the pitch, we've prepared mo
 
 When 3D printing, please print vertically with the disc part where the piezo is attached facing upwards, as shown in the image below. If printed lying down, the layering direction may cause it to break when fitted onto the tone chime.
 
-![Photo of 3D printing. It's positioned vertically with the disc facing upwards.](../img/3dprint_image.jpg)
+![Photo of 3D printing. It is positioned vertically with the disc facing upwards.](../img/3dprint_image.jpg)
 
 Use the `cableclip` model as needed to secure the cable at the end.

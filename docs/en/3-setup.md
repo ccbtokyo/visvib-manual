@@ -4,13 +4,13 @@
 
 Attach an adhesive like Blu-Tack to the center of the metal surface of the contact microphone, then press and fix it to the tone chime.
 
-The microphone needs to be fixed in a position where hands or body don't directly touch it, and where it doesn't stop the vibration of the tone chime itself.
+The microphone needs to be fixed in a position where hands or body do not directly touch it, and where it does not stop the vibration of the tone chime itself.
 
-Therefore, as shown in the image, attach it to the back of the hammer's base (the plate where the note name is written) as a rule. If it's too high, the tone chime itself won't sound, and if it's too low, the volume picked up by the microphone will be too small.
+Therefore, as shown in the image, attach it to the back of the hammer's base (the plate where the note name is written) as a rule. If it is too high, the tone chime itself won't sound, and if it is too low, the volume picked up by the microphone will be too small.
 
 ![Explanation image of contact microphone attachment position. Attach to the back of the hammer base of the tone chime.](../img/attach_position_direct.JPG)
 
-If using a 3D printed cover, you can secure it by pressing in the cover, but don't forget to attach adhesive between the microphone and the tone chime in this case as well.
+If using a 3D printed cover, you can secure it by pressing in the cover, but do not forget to attach adhesive between the microphone and the tone chime in this case as well.
 
 ![Explanation image of contact microphone attachment position with 3D printed cover. Attach to the back of the hammer base of the tone chime.](../img/attach_position_cover.JPG)
 
@@ -72,7 +72,7 @@ If attaching filters etc. to the bulbs, do this before turning on the power. (Af
 
 ![](../img/light_setup_5.JPG)
 
-Connect the incandescent bulbs to the dimmer's outlets. The DP-415R has 8 outlets, but since there are 2 outlets per channel, you actually use up to 4 outlets. For a 2-unit configuration, connect to the places numbered 1 and 2 (it doesn't matter which one you connect to as long as it's the same channel.)
+Connect the incandescent bulbs to the dimmer's outlets. The DP-415R has 8 outlets, but since there are 2 outlets per channel, you actually use up to 4 outlets. For a 2-unit configuration, connect to the places numbered 1 and 2 (it doesn't matter which one you connect to as long as it is the same channel.)
 
 For an 8-unit configuration, treat 1 to 4 of the first unit as 1 to 4, and 1 to 4 of the second unit as 5 to 8.
 

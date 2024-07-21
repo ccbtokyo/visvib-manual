@@ -38,7 +38,7 @@ These are rod-shaped instruments similar to handbells. In the workshop, we use 8
 
 ![Image of custom microphones. On the left is a version with a cover, on the right is a version without a cover.](../img/microphone.JPG)
 
-We use custom-made contact microphones. These microphones pick up vibrations directly from the object they're attached to, rather than air vibrations.
+We use custom-made contact microphones. These microphones pick up vibrations directly from the object they are attached to, rather than air vibrations.
 
 These microphones can be easily made by soldering an inexpensive component called a piezo element to a cable.
 
@@ -91,7 +91,7 @@ If you already have A, you can use it without any issues.
 
 [SENNHEISER EW 122P G4-JB](https://www.soundhouse.co.jp/products/detail/item/254766/)
 
-The EW112P is also fine. We've chosen this transmitter because it can use up to 8 units simultaneously. For configurations with fewer channels, a less expensive option would also work. Be careful of wireless channel interference with other B-band devices at the venue.
+The EW112P is also OK. We have chosen this transmitter because it can use up to 8 units at the same time. For configurations with fewer channels, a less expensive option would also work. Be careful of wireless channel interference with other B-band devices at the venue.
 
 Bluetooth or other transmitters can be used, but there may be latency issues.
 
@@ -103,9 +103,9 @@ Bluetooth or other transmitters can be used, but there may be latency issues.
 
 [AMERICAN DJ / DP415R](https://www.soundhouse.co.jp/products/detail/item/252223/)
 
-- A device that controls AC100V outlet voltage using DMX signals.
+- A device that controls AC Power voltage using DMX signals.
 - Other alternatives include Elation Cyber Pak or LITE-PUTER DX-402A.
-- Each unit can control up to 4 channels, so 2 units are needed if using more than 5 lights.
+- Each unit can control up to 4 channels, so 2 units are needed if using more than 4 lights.
 
 ### DMX-USB Converter
 
@@ -118,8 +118,8 @@ Additionally, prepare the following cables and converter adapters:
 
 - XLR cable: The same 3-pin audio type is fine. Length as needed.
 - XLR Female 3-pin to XLR 5-pin Male converter adapter
-  - Such as [NEUTRIK NA3F5M](https://www.soundhouse.co.jp/products/detail/item/236711/).
+  - For instance, [NEUTRIK NA3F5M](https://www.soundhouse.co.jp/products/detail/item/236711/).
 
-### Incandescent Bulbs
+### Light Bulbs
 
-Any incandescent bulb that plugs into a regular outlet, such as clip lights, will do. However, do not use fluorescent or LED bulbs as a rule. While dimmable ones can be used, they are not recommended as they completely turn off below a certain brightness level.
+Any incandescent bulb that plugs into a regular outlet, such as clip-on lights, will do. However, do not use fluorescent or LED bulbs. While dimmable ones can be used, they are not recommended as they completely turn off below a certain brightness level.

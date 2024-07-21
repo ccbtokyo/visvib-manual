@@ -14,7 +14,7 @@ After launching the applications, first set up the audio interface and DMX conne
 
 ![Audio settings window.]()
 
-First, click the "Open Audio Setting" button in the top right. A new window will open. In the second item from the top, DRIVER, select "ad_portaudio" or "Windows DirectSound" (or "Core Audio" for Mac). In the third item, INPUT DEVICE, select the name of the audio interface you're using. After selecting, close the audio settings window.
+First, click the "Open Audio Setting" button in the top right. A new window will open. In the second item from the top, DRIVER, select "ad_portaudio" or "Windows DirectSound" (or "Core Audio" for Mac). In the third item, INPUT DEVICE, select the name of the audio interface you are using. After selecting, close the audio settings window.
 
 If the "DSP" button is gray, click it to turn it green.
 
@@ -45,16 +45,16 @@ Press the "Save Config" button in the top right. If the configuration of connect
 
 In the audio analysis program, we prevent detection of unnecessary noise by specifying the pitch of the tone chimes to be used in advance. You can adjust the pitch and volume of the tone chimes at the bottom of the audio analysis app screen.
 
-Drag the dial labeled "Pitch" to match the name of the pitch of the tone chime you're using. Also, make sure the button labeled BPF to the right is lit yellow.
+Drag the dial labeled "Pitch" to match the name of the pitch of the tone chime you are using. Also, make sure the button labeled BPF to the right is lit yellow.
 
 > [!NOTE]
-> In the software, the pitches of black keys are notated as `A#4` or `D#4`, but on tone chimes, they're notated as flats like `B♭4` or `E♭4`, so be careful not to confuse them.
+> In the software, the pitches of black keys are notated as `A#4` or `D#4`, but on tone chimes, they are notated as flats like `B♭4` or `E♭4`, so be careful not to confuse them.
 
 Next, let's set the volume (sensitivity) of the contact microphone. When you strike the tone chime, the volume of the sound is displayed in the meter in the part labeled gain.
 
 ![Photo of input knob area]()
 
-Turn the input gain knob on the audio interface to the right until the meter doesn't turn red or yellow when you strike the tone chime strongly.
+Turn the input gain knob on the audio interface to the right until the meter does not turn red or yellow when you strike the tone chime strongly.
 
 If the peak overload lamp on the audio interface lights up, or if the volume is still low even after turning the knob all the way up, drag the gain meter in the application to further adjust the volume.
 
@@ -64,9 +64,9 @@ When using multiple tone chimes, adjust the pitch and volume for all channels. P
 
 ![Screenshot of light area]()
 
-Let's set up the lighting. First, drag the Light Brightness slider left and right to check if the brightness of the lights changes. If the brightness doesn't change when you move this, [there's a problem with the DMX and lighting connections or dimmer settings in the Setup section](5-troubleshooting.md#_5).
+Let's set up the lighting. First, drag the Light Brightness slider left and right to check if the brightness of the lights changes. If the brightness does not change when you move this, [there should be a problem with the DMX and lighting connections or dimmer settings in the Setup section](5-troubleshooting.md#_5).
 
-If the Light Brightness doesn't reach the far right when you strike the tone chime strongly, gradually lower the Range-Input slider at the top.
+If the Light Brightness does not reach the far right when you strike the tone chime strongly, gradually lower the Range-Input slider at the top.
 
 In the video system, circles with colors set for each channel change their size according to the volume.
 
@@ -82,9 +82,9 @@ Similarly, if there are fine reactions in the video, try increasing the attack s
 
 ![Screenshot of smoothing-related area]()
 
-Before closing the application, press Save Config again when it's working well.
+Before closing the application, press Save Config again when it is working well.
 
 You can close the audio application with the ❌ button in the top right (top left for macOS). The settings of the video application are saved automatically. Click the exit button in the bottom right to close.
 
 > [!WARNING]
-> For the video application, the information won't be saved unless you exit using the exit button in the bottom right. Do not exit using the ❌ button on the window.
+> For the video application, the information will not be saved unless you exit using the exit button in the bottom right. Do not exit using the ❌ button on the window.

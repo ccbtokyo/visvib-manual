@@ -2,13 +2,13 @@
 
 ## Installing Cycling '74 Max
 
-This is the software needed to run the sensor application. Max is a paid software, but it's free to use just for running completed programs.
+This is the software needed to run the sensor application. Max is a paid software, but it is free to use just for running completed programs.
 
 Download the version appropriate for your OS from the following URL:
 
-Please use the latest version (v8.3 or later).
-
 https://cycling74.com/downloads
+
+Please use the latest version (v8.3 or later).
 
 ![Screenshot of Max download page](../img/dl_max.png)
 

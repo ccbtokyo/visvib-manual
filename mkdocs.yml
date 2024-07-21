@@ -25,15 +25,19 @@ theme:
     code: M PLUS 1 Code
   extra:
     alternate:
-      - name: English
-        link: /en/
-        lang: en
+    - name: Japanese
+      link: /
+      lang: ja
+    - name: English
+      link: /en/
+      lang: en
 
 markdown_extensions:
   - nl2br
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - footnotes
 
 plugins:
   - search

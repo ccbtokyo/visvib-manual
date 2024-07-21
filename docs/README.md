@@ -2,7 +2,7 @@
 
 [![pages-build-deployment](https://github.com/ccbtokyo/amc-connect/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ccbtokyo/amc-connect/actions/workflows/pages/pages-build-deployment)
 
-[English version](README.en.md)
+[English version](en/README.md)
 
 ## 概要
 
@@ -22,7 +22,7 @@
 4. [立ち上げ-運用編](4-use.md)
 5. [トラブルシューティング](5-troubleshooting.md)
 
-## [ライセンス](./LICENSE)
+## [ライセンス](https://github.com/ccbtokyo/visvib-manual/LICENSE)
 
 本プロジェクトに関わるプログラムのソースコードは、MITライセンスで公開されています。また、プログラム以外のドキュメント、3Dモデルデータはクリエイティブ・コモンズ4.0-表示(CC4.0-BY)で公開されています。
 

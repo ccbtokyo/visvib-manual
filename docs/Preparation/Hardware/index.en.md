@@ -1,6 +1,6 @@
 # Preparation - Hardware Section
 
-![Image of a completed setup with sensors attached to tone chimes.](../img/tonechime-complete.jpg)
+![Image of a completed setup with sensors attached to tone chimes.](../../img/tonechime-complete.jpg)
 
 In the VisVib system, vibration sensors (contact microphones) attached to tone chimes are analyzed on a computer and converted into lighting and video.
 
@@ -36,26 +36,26 @@ These are rod-shaped instruments similar to handbells. In the workshop, we use 8
 
 ### Contact Microphone
 
-![Image of custom microphones. On the left is a version with a cover, on the right is a version without a cover.](../img/microphone.JPG)
+![Image of custom microphones. On the left is a version with a cover, on the right is a version without a cover.](../../img/microphone.JPG)
 
 We use custom-made contact microphones. These microphones pick up vibrations directly from the object they are attached to, rather than air vibrations.
 
 These microphones can be easily made by soldering an inexpensive component called a piezo element to a cable.
 
-For instructions on how to make the microphone, please refer to the document **[1-1 How to Make a Microphone](./1-1-make-contact-microphone.md)**.
+For instructions on how to make the microphone, please refer to the document **[1-1 How to Make a Microphone](make-contact-microphone.en.md)**.
 
 A dedicated cover for the microphone can be 3D printed. This is optional and not necessary for operation.
 
-![Screenshot of the 3D model of the cover.](../img/cover_3dmodel.png)
+![Screenshot of the 3D model of the cover.](../../img/cover_3dmodel.png)
 
-![Photo of the cover right after 3D printing, with support material still attached.](../img/3dprint_image.jpg)
+![Photo of the cover right after 3D printing, with support material still attached.](../../img/3dprint_image.jpg)
 
 The 3D model data for printing can be downloaded from the following links:
 
 |     | Main Cover | Cable Clip |
 |:---:| :--------: | :--------: |
-| Large | [piezo_cover_large.stl](../3dmodels/piezo_cover_large.stl) | [cableclip_large.stl](../3dmodels/cableclip_large.stl) |
-| Small | [piezo_cover_small.stl](../3dmodels/piezo_cover_small.stl) | [cableclip_small.stl](../3dmodels/cableclip_small.stl) |
+| Large | [piezo_cover_large.stl](../../3dmodels/piezo_cover_large.stl) | [cableclip_large.stl](../../3dmodels/cableclip_large.stl) |
+| Small | [piezo_cover_small.stl](../../3dmodels/piezo_cover_small.stl) | [cableclip_small.stl](../../3dmodels/cableclip_small.stl) |
 
 ## PC and Video Equipment
 
@@ -99,17 +99,17 @@ Bluetooth or other transmitters can be used, but there may be latency issues.
 
 ### Dimmer
 
-![Close-up image of the dimmer.](../img/dimmerpack.jpg)
+![Close-up image of the dimmer.](../../img/dimmerpack.jpg)
 
 [AMERICAN DJ / DP415R](https://www.soundhouse.co.jp/products/detail/item/252223/)
 
 - A device that controls AC Power voltage using DMX signals.
 - Other alternatives include Elation Cyber Pak or LITE-PUTER DX-402A.
-- Each unit can control up to 4 channels, so 2 units are needed if using more than 4 lights.
+- Each unit can control up to 4 channels, so 2 units are needed if using more than four lights.
 
 ### DMX-USB Converter
 
-![Close-up image of DMX USB PRO](../img/dmxusbpro.jpg)
+![Close-up image of DMX USB PRO](../../img/dmxusbpro.jpg)
 
 [ENTEC DMX USB PRO](https://www.enttec.com/product/dmx-usb-interfaces/dmx-usb-pro-professional-1u-usb-to-dmx512-converter/)
   - A converter adapter for controlling DMX signals from a computer via USB.

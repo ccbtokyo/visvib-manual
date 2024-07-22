@@ -10,7 +10,7 @@
 
 https://cycling74.com/downloads
 
-![Maxのダウンロード画面のスクリーンショット](./img/dl_max.png)
+![Maxのダウンロード画面のスクリーンショット](../../img/dl_max.png)
 
 ダウンロードしたら、zipファイルを解凍して、インストーラーアプリケーションを実行して、指示に従ってください。
 
@@ -39,4 +39,4 @@ https://github.com/ccbtokyo/ToneChime_VideoSystem/releases
 
 フォルダ内の、ToneChime_VideoSystemというアプリケーションが本体です。
 
-[ダウンロードしてから初回の起動時はシステムに起動をブロックされることがありますが、回避可能です。トラブルシューティングを参照してください。](5-troubleshooting.md#_2)
+[ダウンロードしてから初回の起動時はシステムに起動をブロックされることがありますが、回避可能です。トラブルシューティングを参照してください。](../../Troubleshooting/index.md#_2)

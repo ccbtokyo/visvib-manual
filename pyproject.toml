@@ -13,6 +13,7 @@ python = "^3.12"
 mkdocs = "^1.6.0"
 mkdocs-material = "^9.5.26"
 mkdocs-callouts = "^1.13.2"
+mkdocs-static-i18n = "^1.2.3"
 
 [build-system]
 requires = ["poetry-core"]

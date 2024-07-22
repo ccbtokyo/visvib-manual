@@ -1,6 +1,6 @@
 # 準備-ハードウェア編
 
-![トーンチャイムにセンサーを取り付けた完成状態の画像。](img/tonechime-complete.jpg)
+![トーンチャイムにセンサーを取り付けた完成状態の画像。](../../img/tonechime-complete.jpg)
 
 VisVibのシステムでは、トーンチャイムに取り付けた振動センサー（コンタクトマイク）をコンピューター上で解析して、照明や映像に変換します。
 
@@ -36,26 +36,26 @@ VisVibのシステムでは、トーンチャイムに取り付けた振動セ�
 
 ### コンタクトマイク
 
-![特製マイクロフォンの画像。左側にはカバーありバージョン、右側にはカバーなしのバージョンが置かれている。](img/microphone.JPG)
+![特製マイクロフォンの画像。左側にはカバーありバージョン、右側にはカバーなしのバージョンが置かれている。](../../img/microphone.JPG)
 
 コンタクトマイクは特製のものを使用します。このマイクは、空気振動ではなく、貼り付けた物体の振動を直接拾うものです。
 
 このマイクは、ピエゾ素子という、安価な部品をケーブルにはんだ付けすることで、簡単に作ることができます。
 
-マイクの作成方法は、**[1-1 マイクの作成方法](./1-1-make-contact-microphone.md)** というドキュメントを参照してください。
+マイクの作成方法は、**[1-1 マイクの作成方法](make-contact-microphone.md)** というドキュメントを参照してください。
 
 マイクに被せる専用のカバーは、 3Dプリンターで印刷することが可能です。こちらは、なくても動作には問題ありません。
 
-![カバーの3Dモデルのスクリーンショット画像。](./img/cover_3dmodel.png)
+![カバーの3Dモデルのスクリーンショット画像。](../../img/cover_3dmodel.png)
 
-![カバーを3Dプリントした直後の写真。サポート材がついた状態。](./img/3dprint_image.jpg)
+![カバーを3Dプリントした直後の写真。サポート材がついた状態。](../../img/3dprint_image.jpg)
 
 3Dプリント用のモデルデータは以下からダウンロードできます。
 
 |     |カバー本体|ケーブル留め|
 |:---:| :-----: |:------:|
-|大|[piezo_cover_large.stl](3dmodels/piezo_cover_large.stl)|[cableclip_large.stl](3dmodels/cableclip_large.stl)|
-|小|[piezo_cover_small.stl](3dmodels/piezo_cover_small.stl)|[cableclip_small.stl](3dmodels/cableclip_small.stl)|
+|大|[piezo_cover_large.stl](../../3dmodels/piezo_cover_large.stl)|[cableclip_large.stl](../../3dmodels/cableclip_large.stl)|
+|小|[piezo_cover_small.stl](../../3dmodels/piezo_cover_small.stl)|[cableclip_small.stl](../../3dmodels/cableclip_small.stl)|
 
 ## PC関係、映像関係
 
@@ -99,7 +99,7 @@ Bluetoothなどのトランスミッタでも良いが、遅延が発生する�
 
 ### ディマー
 
-![ディマーのアップ画像。](./img/dimmerpack.jpg)
+![ディマーのアップ画像。](../../img/dimmerpack.jpg)
 
 [AMERICAN DJ / DP415R](https://www.soundhouse.co.jp/products/detail/item/252223/)
 
@@ -109,7 +109,7 @@ Bluetoothなどのトランスミッタでも良いが、遅延が発生する�
 
 ### DMX-USB変換アダプタ
 
-![DMX USB PROのアップ画像](./img/dmxusbpro.jpg)
+![DMX USB PROのアップ画像](../../img/dmxusbpro.jpg)
 
 [ENTEC DMX USB PRO](https://www.enttec.com/product/dmx-usb-interfaces/dmx-usb-pro-professional-1u-usb-to-dmx512-converter/)
   - コンピューターからUSB経由でDMX信号を制御するための変換アダプタ。

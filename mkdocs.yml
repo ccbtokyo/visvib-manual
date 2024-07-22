@@ -3,20 +3,24 @@ repo_url: https://github.com/ccbtokyo/visvib-manual/
 docs_dir: 'docs'
 nav:
   - Home: 'README.md'
-  - '準備':
-      - '1.ハードウェア編':
-          - '1-prep-hardware.md'
-          - '1-1-make-contact-microphone.md'
-      - '2.ソフトウェア編': '2-prep-software.md'
-  - '3.セットアップ': '3-setup.md'
-  - '4.立ち上げ-運用編': '4-use.md'
-  - '5.トラブルシューティング': '5-troubleshooting.md'
+  - Preparation:
+      - Hardware:
+        - Preparation/Hardware/index.md
+        - Preparation/Hardware/make-contact-microphone.md
+      - Software:
+        - Preparation/Software/index.md
+  - Setup: Setup/index.md
+  - Usage: Usage/index.md
+  - Troubleshooting: Troubleshooting/index.md
 
-# copyright: '©2024 CIVIC CREATIVE BASE TOKYO'
+copyright: '©2024 AMC Connect AMC + CCBT + Tokyo Bunka Kaikan'
 
 theme:
   name: material
   language: ja
+  features:
+    #    - navigation.indexes
+    - navigation.expand
   palette:
     scheme: default
     primary: black
@@ -25,12 +29,12 @@ theme:
     code: M PLUS 1 Code
   extra:
     alternate:
-    - name: Japanese
-      link: /
-      lang: ja
-    - name: English
-      link: /en/
-      lang: en
+      - name: Japanese
+        link: /
+        lang: ja
+      - name: English
+        link: /en/
+        lang: en
 
 markdown_extensions:
   - nl2br
@@ -38,7 +42,30 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - footnotes
+  - codehilite:
+      noclasses: true
+      pygments_style: colorful
+      linenums: true
 
 plugins:
   - search
   - callouts
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: ja
+          name: 日本語
+          build: true
+          default: true
+          nav_translations:
+            Home: ホーム
+            Preparation: 準備
+            Hardware: ハードウェア
+            Software: ソフトウェア
+            Setup: セットアップ
+            Usage: 使い方
+            Troubleshooting: トラブルシューティング
+        - locale: en
+          name: English
+          build: true
+          site_name: 'VisVib: Tone Chime to Light/Video Conversion Device'

@@ -2,29 +2,32 @@
 
 [![pages-build-deployment](https://github.com/ccbtokyo/amc-connect/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ccbtokyo/amc-connect/actions/workflows/pages/pages-build-deployment)
 
-[English version](en/README.md)
-
 ## 概要
 
-このプロジェクトは、[シビック・クリエイティブ・ベース東京[CCBT]](https://ccbt.rekibun.or.jp/)、[東京藝術大学芸術情報センター（AMC）](https://amc.geidai.ac.jp)と[東京文化会館](https://www.t-bunka.jp/)が共同で行う、ろう者・難聴者も含め音楽を楽しめるような音楽ワークショップの開発過程で生まれた、トーンチャイムという楽器を用いて、その音を光や映像としても体験できるシステム： **VisVib** です。
+このプロジェクトは、[シビック・クリエイティブ・ベース東京[CCBT]](https://ccbt.rekibun.or.jp/)、[東京藝術大学芸術情報センター（AMC）](https://amc.geidai.ac.jp)
+と[東京文化会館](https://www.t-bunka.jp/)
+が共同で行う、ろう者・難聴者も含め音楽を楽しめるような音楽ワークショップの開発過程で生まれた、トーンチャイムという楽器を用いて、その音を光や映像としても体験できるシステム：
+**VisVib** です。
 
 本プロジェクトで開発した成果をより広く共有するべく、**VisVib** のシステムをオープンソース化しています。
 
-デバイスやワークショップの開発過程は、[CCBTのリサーチノート](https://ccbt.rekibun.or.jp/research-notes/diverstiy-and-inclusion-project-02)で公開されています。
+デバイスやワークショップの開発過程は、[CCBTのリサーチノート](https://ccbt.rekibun.or.jp/research-notes/diverstiy-and-inclusion-project-02)
+で公開されています。
 
 [ここに動画を埋め込む]
 
 ## 目次
 
-1. [準備：ハードウェア編](1-prep-hardware.md)
-2. [準備：ソフトウェア編](2-prep-software.md)
-3. [セットアップ編](3-setup.md)
-4. [立ち上げ-運用編](4-use.md)
-5. [トラブルシューティング](5-troubleshooting.md)
+1. [準備：ハードウェア編](Preparation/Hardware/index.md)
+2. [準備：ソフトウェア編](Preparation/Software/index.md)
+3. [セットアップ編](Setup/index.md)
+4. [立ち上げ-運用編](Usage/index.md)
+5. [トラブルシューティング](Troubleshooting/index.md)
 
 ## [ライセンス](https://github.com/ccbtokyo/visvib-manual/LICENSE)
 
-本プロジェクトに関わるプログラムのソースコードは、MITライセンスで公開されています。また、プログラム以外のドキュメント、3Dモデルデータはクリエイティブ・コモンズ4.0-表示(CC4.0-BY)で公開されています。
+本プロジェクトに関わるプログラムのソースコードは、MITライセンスで公開されています。また、プログラム以外のドキュメント、3Dモデルデータはクリエイティブ・コモンズ4.0-表示(
+CC4.0-BY)で公開されています。
 
 ## クレジット
 
@@ -56,4 +59,4 @@
 
 ## ドキュメントの管理・開発
 
-[DEVELOPMENT](https://github.com/ccbtokyo/visvib-manual/docs/DEVELOPMENT.md) を参照してください。
+[DEVELOPMENT](Development/index.md) を参照してください。

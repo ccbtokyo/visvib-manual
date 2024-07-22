@@ -1,14 +1,15 @@
 site_name: VisVib：トーンチャイム→光/映像変換デバイス
+site_url: https://ccbtokyo.github.io/visvib-manual/
 repo_url: https://github.com/ccbtokyo/visvib-manual/
 docs_dir: 'docs'
 nav:
   - Home: 'README.md'
   - Preparation:
       - Hardware:
-        - Preparation/Hardware/index.md
-        - Preparation/Hardware/make-contact-microphone.md
+          - Preparation/Hardware/index.md
+          - Preparation/Hardware/make-contact-microphone.md
       - Software:
-        - Preparation/Software/index.md
+          - Preparation/Software/index.md
   - Setup: Setup/index.md
   - Usage: Usage/index.md
   - Troubleshooting: Troubleshooting/index.md
@@ -27,14 +28,6 @@ theme:
   font:
     text: Noto Sans JP
     code: M PLUS 1 Code
-  extra:
-    alternate:
-      - name: Japanese
-        link: /
-        lang: ja
-      - name: English
-        link: /en/
-        lang: en
 
 markdown_extensions:
   - nl2br

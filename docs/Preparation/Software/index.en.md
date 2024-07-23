@@ -7,7 +7,7 @@ running completed programs.
 
 Download the version appropriate for your OS from the following URL:
 
-https://cycling74.com/downloads
+<https://cycling74.com/downloads>
 
 Please use the latest version (v8.3 or later).
 
@@ -21,7 +21,7 @@ After downloading, unzip the file, run the installer application, and follow the
 
 You can download the latest version of the sensor application from the following URL:
 
-https://github.com/ccbtokyo/ccbt_tonechime_sensor/archive/refs/heads/main.zip
+<https://github.com/ccbtokyo/ccbt_tonechime_sensor/archive/refs/heads/main.zip>
 
 After downloading, unzip the file and move the entire folder to an accessible location such as the desktop.
 
@@ -37,7 +37,7 @@ launch the main application.
 
 Please download the latest version of `ToneChime_VideoSystem.zip` from the following URL:
 
-https://github.com/ccbtokyo/ToneChime_VideoSystem/releases
+<https://github.com/ccbtokyo/ToneChime_VideoSystem/releases>
 
 After downloading, extract the zip file and place the entire folder in an accessible location such as the desktop.
 

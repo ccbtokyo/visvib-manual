@@ -8,7 +8,7 @@
 
 バージョンは最新版（v8.3以上）のものを使用してください。
 
-https://cycling74.com/downloads
+<https://cycling74.com/downloads>
 
 ![Maxのダウンロード画面のスクリーンショット](../../img/dl_max.png)
 
@@ -20,7 +20,7 @@ https://cycling74.com/downloads
 
 センサー用のアプリケーションは、以下のURLから最新版をダウンロードできます。
 
-https://github.com/ccbtokyo/ccbt_tonechime_sensor/archive/refs/heads/main.zip
+<https://github.com/ccbtokyo/ccbt_tonechime_sensor/archive/refs/heads/main.zip>
 
 ダウンロードしたら、zipファイルを解凍して、フォルダごとデスクトップなどわかりやすい場所に移動しておきます。
 
@@ -33,7 +33,7 @@ https://github.com/ccbtokyo/ccbt_tonechime_sensor/archive/refs/heads/main.zip
 
 以下のURLから、最新のバージョンの`ToneChime_VideoSystem.zip`をダウンロードしてください。
 
-https://github.com/ccbtokyo/ToneChime_VideoSystem/releases
+<https://github.com/ccbtokyo/ToneChime_VideoSystem/releases>
 
 ダウンロード後は、zipファイルを展開して、フォルダごとデスクトップなどわかりやすい場所に配置してください。
 

@@ -30,6 +30,8 @@ theme:
     code: M PLUS 1 Code
 
 markdown_extensions:
+  - mdx_truly_sane_lists:
+      nested_indent: 2
   - nl2br
   - admonition
   - pymdownx.details

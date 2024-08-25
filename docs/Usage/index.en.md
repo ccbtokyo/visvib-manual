@@ -30,17 +30,14 @@ Click the DMX button below to turn it green as well. If the USB DMX PRO is conne
 up green and display "Connected".
 
 > [!NOTE]
-> The application automatically detects serial communication devices connected via USB. If multiple serial devices are
-> connected, it may attempt to connect to devices other than the USB DMX PRO, so please do not connect USB devices
-> unrelated to the system.
+> The application automatically detects serial communication devices connected via USB. If multiple serial devices are connected, it may attempt to connect to devices other than the USB DMX PRO, so please do not connect USB devices unrelated to the system.
 
 ![Screenshot with OSC settings area circled]()
 
 Click the "OSC" button below to turn it green, and also click "LOCAL_MODE" to turn it yellow.
 
 > [!NOTE]
-> Turning off "LOCAL_MODE" allows synchronization with a video application running on another computer. Enter the IP
-> address of the computer running the video application in the address field next to port.
+> Turning off "LOCAL_MODE" allows synchronization with a video application running on another computer. Enter the IP address of the computer running the video application in the address field next to port.
 
 ![Screenshot with save settings area circled]()
 
@@ -48,8 +45,7 @@ Press the "Save Config" button in the top right. If the configuration of connect
 parameters, including audio interface settings, will be automatically restored the next time you launch the application.
 
 > [!NOTE]
-> Parameters are written in a file named `data/main.json`. You can also directly edit `pattrstorage/slots/1/data` in the
-> JSON data.
+> Parameters are written in a file named `data/main.json`. You can also directly edit `pattrstorage/slots/1/data` in the JSON data.
 
 ## Setting Tone Chime Pitch and Volume
 
@@ -63,8 +59,7 @@ Drag the dial labeled "Pitch" to match the name of the pitch of the tone chime y
 labeled BPF to the right is lit yellow.
 
 > [!NOTE]
-> In the software, the pitches of black keys are notated as `A#4` or `D#4`, but on tone chimes, they are notated as
-> flats like `B♭4` or `E♭4`, so be careful not to confuse them.
+> In the software, the pitches of black keys are notated as `A#4` or `D#4`, but on tone chimes, they are notated as flats like `B♭4` or `E♭4`, so be careful not to confuse them.
 
 Next, let's set the volume (sensitivity) of the contact microphone. When you strike the tone chime, the volume of the
 sound is displayed in the meter in the part labeled gain.
@@ -113,5 +108,4 @@ You can close the audio application with the ❌ button in the top right (top le
 application are saved automatically. Click the exit button in the bottom right to close.
 
 > [!WARNING]
-> For the video application, the information will not be saved unless you exit using the exit button in the bottom
-> right. Do not exit using the ❌ button on the window.
+> For the video application, the information will not be saved unless you exit using the exit button in the bottom right. Do not exit using the ❌ button on the window.

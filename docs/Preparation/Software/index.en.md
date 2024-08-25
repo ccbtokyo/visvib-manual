@@ -29,9 +29,7 @@ Double-clicking the file `ccbt_tonechime_sensor/maxproject/ccbt_tonechime_sensor
 launch the main application.
 
 > [!NOTE]
-> Configuration data is written to the file `ccbt_tonechime_sensor/maxproject/ccbt_tonechime_sensor/data/main.json`. If
-> you want to carry over previous settings to a new computer, either copy the entire folder from the previous computer or
-> move and overwrite the `main.json` file.
+> Configuration data is written to the file `ccbt_tonechime_sensor/maxproject/ccbt_tonechime_sensor/data/main.json`. If you want to carry over previous settings to a new computer, either copy the entire folder from the previous computer or move and overwrite the `main.json` file.
 
 ## Downloading the Video Application
 

@@ -31,7 +31,7 @@
 
 デバイス開発：
 
-- [伊藤隆之](https://ccbt.rekibun.or.jp/players/ito-takayuki)（シビック・クリエイティブ・ベース東京［CCBT］テクニカルディレクター
+- [伊藤隆之](https://ccbt.rekibun.or.jp/players/ito-takayuki)（シビック・クリエイティブ・ベース東京［CCBT］）
 - [イトウユウヤ](https://ccbt.rekibun.or.jp/players/ito-takayuki)
   （テクニカルディレクター／[arsaffix](https://arsaffix.com/)）
 - 三浦大輝（エンジニア）

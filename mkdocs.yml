@@ -16,6 +16,9 @@ nav:
 
 copyright: '©2024 AMC Connect AMC + CCBT + Tokyo Bunka Kaikan'
 
+extra_css:
+  - css/iframe.css
+
 theme:
   name: material
   language: ja

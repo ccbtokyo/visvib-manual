@@ -10,9 +10,15 @@
 
 デバイスやワークショップの開発過程は、CCBTウェブサイト「[リサーチノート](https://ccbt.rekibun.or.jp/research-notes/diverstiy-and-inclusion-project-02)」で公開されています。
 
-<iframe width="2014" height="1075" src="https://www.youtube.com/embed/hWaFJXojxO8" title="VisVibの使い方｜セットアップ編" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container">
+  <div class="video-wrapper">
+    <iframe width="2014" height="1075" src="https://www.youtube.com/embed/hWaFJXojxO8" title="VisVibの使い方｜セットアップ編" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
 
-<iframe width="2014" height="1075" src="https://www.youtube.com/embed/KC6nucvaL8E" title="VisVibの使い方｜実践編" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <div class="video-wrapper">
+    <iframe width="2014" height="1075" src="https://www.youtube.com/embed/KC6nucvaL8E" title="VisVibの使い方｜実践編" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</div>
 
 ## 目次
 
@@ -33,7 +39,7 @@
 
 デバイス開発：
 
-- [伊藤隆之](https://ccbt.rekibun.or.jp/players/ito-takayuki)（シビック・クリエイティブ・ベース東京［CCBT］）
+- [伊藤隆之](https://ccbt.rekibun.or.jp/players/ito-takayuki)（シビック・クリエイティブ・ベース東京［CCBT］テクニカルディレクター
 - [イトウユウヤ](https://ccbt.rekibun.or.jp/players/ito-takayuki)
   （テクニカルディレクター／[arsaffix](https://arsaffix.com/)）
 - 三浦大輝（エンジニア）

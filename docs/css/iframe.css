@@ -1,0 +1,24 @@
+.video-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjust this value to set the gap */
+}
+
+.video-wrapper {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+}
+
+.video-wrapper > iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}

@@ -10,7 +10,8 @@
 
 デバイスやワークショップの開発過程は、CCBTウェブサイト「[リサーチノート](https://ccbt.rekibun.or.jp/research-notes/diverstiy-and-inclusion-project-02)」で公開されています。
 
-[ここに動画を埋め込む]
+[![セットアップ編の動画](https://img.youtube.com/vi/hWaFJXojxO8/0.jpg)](https://www.youtube.com/watch?v=hWaFJXojxO8)
+[![実践編の動画](https://img.youtube.com/vi/KC6nucvaL8E/0.jpg)](https://www.youtube.com/watch?v=KC6nucvaL8E)
 
 ## 目次
 

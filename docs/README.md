@@ -10,8 +10,9 @@
 
 デバイスやワークショップの開発過程は、CCBTウェブサイト「[リサーチノート](https://ccbt.rekibun.or.jp/research-notes/diverstiy-and-inclusion-project-02)」で公開されています。
 
-[![セットアップ編の動画](https://img.youtube.com/vi/hWaFJXojxO8/0.jpg)](https://www.youtube.com/watch?v=hWaFJXojxO8)
-[![実践編の動画](https://img.youtube.com/vi/KC6nucvaL8E/0.jpg)](https://www.youtube.com/watch?v=KC6nucvaL8E)
+<iframe width="2014" height="1075" src="https://www.youtube.com/embed/hWaFJXojxO8" title="VisVibの使い方｜セットアップ編" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="2014" height="1075" src="https://www.youtube.com/embed/KC6nucvaL8E" title="VisVibの使い方｜実践編" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 目次
 

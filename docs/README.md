@@ -39,11 +39,7 @@
 
 デバイス開発：
 
-<<<<<<< HEAD
-- [伊藤隆之](https://ccbt.rekibun.or.jp/players/ito-takayuki)（シビック・クリエイティブ・ベース東京［CCBT］）
-=======
-- [伊藤隆之](https://ccbt.rekibun.or.jp/players/ito-takayuki)（シビック・クリエイティブ・ベース東京［CCBT］テクニカルディレクター
->>>>>>> ef388e4 (Add video embeds and styling to README)
+- [伊藤隆之](https://ccbt.rekibun.or.jp/players/ito-takayuki)（シビック・クリエイティブ・ベース東京［CCBT］テクニカルディレクター）
 - [イトウユウヤ](https://ccbt.rekibun.or.jp/players/ito-takayuki)
   （テクニカルディレクター／[arsaffix](https://arsaffix.com/)）
 - 三浦大輝（エンジニア）

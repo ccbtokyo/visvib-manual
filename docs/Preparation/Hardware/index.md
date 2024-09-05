@@ -44,19 +44,6 @@ VisVibのシステムでは、トーンチャイムに取り付けた振動セ�
 
 マイクの作成方法は、**[特製コンタクトマイクロフォン（振動センサー）の制作手順](make-contact-microphone.md)** というドキュメントを参照してください。
 
-マイクに被せる専用のカバーは、 3Dプリンターで印刷することが可能です。こちらは、なくても動作には問題ありません。
-
-![カバーの3Dモデルのスクリーンショット画像。](../../img/cover_3dmodel.png)
-
-![カバーを3Dプリントした直後の写真。サポート材がついた状態。](../../img/3dprint_image.jpg)
-
-3Dプリント用のモデルデータは以下からダウンロードできます。
-
-|     |カバー本体|ケーブル留め|
-|:---:| :-----: |:------:|
-|大|[piezo_cover_large.stl](../../3dmodels/piezo_cover_large.stl)|[cableclip_large.stl](../../3dmodels/cableclip_large.stl)|
-|小|[piezo_cover_small.stl](../../3dmodels/piezo_cover_small.stl)|[cableclip_small.stl](../../3dmodels/cableclip_small.stl)|
-
 ## PC関係、映像関係
 
 - コンピューター

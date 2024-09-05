@@ -44,19 +44,6 @@ These microphones can be easily made by soldering an inexpensive component calle
 
 For instructions on how to make the microphone, please refer to the document **[1-1 How to Make a Microphone](make-contact-microphone.en.md)**.
 
-A dedicated cover for the microphone can be 3D printed. This is optional and not necessary for operation.
-
-![Screenshot of the 3D model of the cover.](../../img/cover_3dmodel.png)
-
-![Photo of the cover right after 3D printing, with support material still attached.](../../img/3dprint_image.jpg)
-
-The 3D model data for printing can be downloaded from the following links:
-
-|     | Main Cover | Cable Clip |
-|:---:| :--------: | :--------: |
-| Large | [piezo_cover_large.stl](../../3dmodels/piezo_cover_large.stl) | [cableclip_large.stl](../../3dmodels/cableclip_large.stl) |
-| Small | [piezo_cover_small.stl](../../3dmodels/piezo_cover_small.stl) | [cableclip_small.stl](../../3dmodels/cableclip_small.stl) |
-
 ## PC and Video Equipment
 
 - Computer

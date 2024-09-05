@@ -2,7 +2,7 @@
 
 ## Launch the application
 
-First, start the application. [The first time you start the application after downloading it, the system may block it from starting, please ignore this and start it](../Troubleshooting/index.md#_2).
+First, start the application. [The first time you start the application after downloading it, the system may block it from starting, please ignore this and start it](../Troubleshooting/index.md#application-launch-is-blocked).
 
 ![Clicking on the Max Project file named ccbt_tonechime_sensor in the folder in Windows Explorer](../img/launch_maxapp.png)
 
@@ -82,7 +82,7 @@ When using multiple tone chimes, adjust the pitch and volume on all channels. Pr
 
 ![Screenshot of lights](../img/test-lightslider.png)
 
-Configure the lighting settings. First, drag the slider named Light Brightness left and right to check if the brightness of the lights changes. If the brightness does not change after moving it, then there is a problem with the DMX, lighting connection, or dimmer settings in the [Setup section](. /Troubleshooting/index.md#_7).
+Configure the lighting settings. First, drag the slider named Light Brightness left and right to check if the brightness of the lights changes. If the brightness does not change after moving it, then there is a problem with the DMX, lighting connection, or dimmer settings in the [Setup section](../Troubleshooting/index.md#the-brightness-changes-with-the-slider).
 
 This Light Brightness slider moves automatically according to the signal from the microphone. If the Light Brightness does not go all the way to the right when you hit the tone chime hard, adjust the sensitivity by **decreasing** the slider named Range-Input, which is located at the top, little by little.
 

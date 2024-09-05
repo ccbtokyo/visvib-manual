@@ -25,7 +25,7 @@ application afterwards.
 
 ## Audio application doesn't start
 
-[Please check if Max is installed correctly.](../Preparation/Software/index.en.md#installing-cycling-74-max)
+[Please check if Max is installed correctly.](../Preparation/Software/index.en.md#install-cycling-74-max)
 
 ## No sound response in the audio application
 

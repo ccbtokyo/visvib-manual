@@ -1,111 +1,114 @@
-# Practical Use Part
+## Practical Usage
 
-First, let's start the
-applications. [If the system blocks the launch when starting for the first time after downloading, ignore it and launch anyway.](../Troubleshooting/index.en.md#application-launch-is-blocked)
+## Launch the application
 
-![Screenshot of Max application.]()
+First, start the application. [The first time you start the application after downloading it, the system may block it from starting, please ignore this and start it](../Troubleshooting/index.md#_2).
 
-Double-clicking the Max project file named `ccbt_tonechime_sensor` in the audio program folder will launch the
-application for audio analysis and lighting control in Max.
+![Clicking on the Max Project file named ccbt_tonechime_sensor in the folder in Windows Explorer](../img/launch_maxapp.png)
 
-![Screenshot of video application.]()
 
-Double-clicking the application named `Tonechime_VideoSystem` in the video application folder will launch the video
-application. At this time, if an external display is connected, the video application will automatically display in full
-screen. A small operation window will be displayed on the main display.
+Double-clicking on the Max Project file named `ccbt_tonechime_sensor` in the folder of the audio and lighting application will launch the application on Max.
 
-After launching the applications, first set up the audio interface and DMX connections.
+![Screenshot of the audio/lighting application.](../img/screenshot-mainapp.png)
 
-![Audio settings window.]()
 
-First, click the "Open Audio Setting" button in the top right. A new window will open. In the second item from the top,
-DRIVER, select "ad_portaudio" or "Windows DirectSound" (or "Core Audio" for Mac). In the third item, INPUT DEVICE,
-select the name of the audio interface you are using. After selecting, close the audio settings window.
+The video application is launched by double-clicking on the application `Tonechime_VideoSystem` in the video application folder. At this time, if an external display is connected, the video application will automatically appear in full screen. A small control window will appear on the main display. After launching the application, the first step is to configure the connection settings for the audio interface and DMX.
 
-If the "DSP" button is gray, click it to turn it green.
+![Screenshot of the video application.](../img/video-system.png)
 
-![Screenshot with DMX settings area circled]()
+## Audio interface settings.
 
-Click the DMX button below to turn it green as well. If the USB DMX PRO is connected, the icon to the right will light
-up green and display "Connected".
+![Screenshot of audio and lighting application. Description of how to open the "Audio Setting” window. The cursor is placed over the button “Audio Setting” and a small window titled AUDIO STATUS is launched in the upper left side of the main application.](../img/select-audiointerface.png)
 
-> [!NOTE]
-> The application automatically detects serial communication devices connected via USB. If multiple serial devices are connected, it may attempt to connect to devices other than the USB DMX PRO, so please do not connect USB devices unrelated to the system.
+First, click on the “Audio Setting” button in the frame named System in the upper right corner.
 
-![Screenshot with OSC settings area circled]()
+![The button under “INPUT DEVICE” is clicked, and three candidates are shown from the top: None, In 1-2 (Roland Rubix), and Microphone Array (MIPI SoundWire), with the second one, Roland, being selected with the cursor. The cursor is moved to](../img/select-audiointerface2.png)
 
-Click the "OSC" button below to turn it green, and also click "LOCAL_MODE" to turn it yellow.
+A new window will appear, and under DRIVER, the second item from the top, select “ad_portaudio” or “Windows DirectSound” (“Core Audio” for Mac), and under INPUT DEVICE, the third item, select the name of the audio interface you are using. In the third INPUT DEVICE, select the name of the audio interface you are using. Also, set the SAMPLING RATE to 48000. When you are done, close the audio setup window.
 
-> [!NOTE]
-> Turning off "LOCAL_MODE" allows synchronization with a video application running on another computer. Enter the IP address of the computer running the video application in the address field next to port.
+![Screenshot of the Audio and Lighting application. "DSP” button above "Audio Setting" has the cursor over it and is lit green](../img/select-audiointerface3.png)
 
-![Screenshot with save settings area circled]()
+Then, if the “DSP” button above “Audio Setting” is gray, click on it so that it turns green.
 
-Press the "Save Config" button in the top right. If the configuration of connected devices is the same, the current
-parameters, including audio interface settings, will be automatically restored the next time you launch the application.
+## Set up the lighting
 
-> [!NOTE]
-> Parameters are written in a file named `data/main.json`. You can also directly edit `pattrstorage/slots/1/data` in the JSON data.
+![Screenshot of the audio and lighting application, with the cursor over the button DMX_ENABLE, which is green. The indicator to the right of it is also lit green, and “Connected” is shown on the right side. The device name “COM3” appears slightly below it.](../img/dmx-enable.png)
 
-## Setting Tone Chime Pitch and Volume
+Click on the `DMX_DISABLE/DMX_ENABLE` button in the “Device Communication” box at the bottom of the System so that it is also green (ENABLE). If the DMX USB PRO is properly connected, the indicator to the right will glow green and the word “Connected” will be displayed.
 
-![Screenshot with pitch settings area circled]()
+> [!NOTE].
+> The application automatically detects serial communicating devices connected via USB. If more than one serial device is connected, it will attempt to connect to devices other than DMX USB PRO, so do not connect USB devices that are not relevant to your system.
 
-In the audio analysis program, we prevent detection of unnecessary noise by specifying the pitch of the tone chimes to
-be used in advance. You can adjust the pitch and volume of the tone chimes at the bottom of the audio analysis app
-screen.
+![Screenshot of the audio and lighting application, with the button named OSC lit green and the cursor over the button named LOCAL_MODE below it, which is lit yellow.](../img/osc-enable.png)
 
-Drag the dial labeled "Pitch" to match the name of the pitch of the tone chime you are using. Also, make sure the button
-labeled BPF to the right is lit yellow.
+Click on the “OSC” button so that it is also green and the “LOCAL_MODE” button below it is also yellow.
 
 > [!NOTE]
-> In the software, the pitches of black keys are notated as `A#4` or `D#4`, but on tone chimes, they are notated as flats like `B♭4` or `E♭4`, so be careful not to confuse them.
+> Turn off “LOCAL_MODE” to synchronize with a video application running on another computer. Enter the IP address of the computer running the video application in the “address” field to the left of “port”.
 
-Next, let's set the volume (sensitivity) of the contact microphone. When you strike the tone chime, the volume of the
-sound is displayed in the meter in the part labeled gain.
+## save configuration
 
-![Photo of input knob area]()
+![Screenshot of the audio and lighting applications. The cursor is over the “Save Config” area in the upper right corner and the button is lit red.](../img/save_config.png)
 
-Turn the input gain knob on the audio interface to the right until the meter does not turn red or yellow when you strike
-the tone chime strongly.
+If there are no problems with the connection, click the “Save Config” button in the upper right corner. If the configuration of the connected devices is the same, the next time you launch the application, the current configuration, including the audio interface settings, will be restored automatically.
 
-If the peak overload lamp on the audio interface lights up, or if the volume is still low even after turning the knob
-all the way up, drag the gain meter in the application to further adjust the volume.
+> [!NOTE]
+> The parameters are written in the file `data/main.json`, which can also be edited directly in the JSON data by editing `pattrstorage/slots/1/data`.
 
-When using multiple tone chimes, adjust the pitch and volume for all channels. Press "Save Config" again to save the
-settings.
+## Set tone chime pitch and volume.
 
-## Lighting and Video Settings
+![screenshot around the pitch setting section](../img/adjust-pitch.png)
 
-![Screenshot of light area]()
+In the voice and lighting program, the tone chime pitch to be used is specified in advance by the program, preventing the detection of extraneous noise. In the section in the lower half of the application screen, the pitch and volume of the tone chime can be adjusted.
 
-Let's set up the lighting. First, drag the Light Brightness slider left and right to check if the brightness of the
-lights changes. If the brightness does not change when you move
-this, [there should be a problem with the DMX and lighting connections or dimmer settings in the Setup section](../Troubleshooting/index.en.md#sound-information-is-not-reflected-in-the-lighting).
+For each channel, drag the “Pitch” dial to the name of the tone chime pitch you are using. Also, make sure the BPF button on the right is glowing yellow [^bpf].
 
-If the Light Brightness does not reach the far right when you strike the tone chime strongly, gradually lower the
-Range-Input slider at the top.
+> [!NOTE]
+> On the software, the pitch of the black keys is marked in sharp, such as `A#4` or `D#4`, but on the tone chime it is marked in flat, such as `B♭4` or `E♭4`, so make sure you don't make a mistake.
 
-In the video system, circles with colors set for each channel change their size according to the volume.
+[^bpf]: When applying the VisVib system to percussion instruments with no sense of pitch, etc., turning off the BPF button may make them more responsive to sound. Note, however, that it will also increase the detection rate of noise.
 
-At this time, the video effect changes in three stages depending on the volume. You can set at what volume to divide
-large, medium, and small using the High, Mid, and Low sliders in Detection Threshold.
+Next, set the volume (sensitivity) of the contact microphone. When you hit the tone chime, the volume of the sound will be displayed on the meter where it says gain on the application.
 
-In the Video section at the bottom of the app, you can see the actual volume change and the three-stage division
-positions, so try striking with different volumes to find good division points.
+Turn the audio interface's input gain knob up to the right until the meter does not turn red or yellow when you strike the tone chime strongly.
 
-In the video application, you can set the color for each channel.
+![picture of the input knob section](../img/audiointerface_gain.jpg)
 
-If the lights flicker finely even when no sound is actually playing, increase the value of the Smoothing slider.
+If the Peak Excessive Input light comes on at the audio interface side, or if the knob is turned up all the way but the volume is still too low, drag the gain meter on the application to adjust the volume further.
 
-Similarly, if there are fine reactions in the video, try increasing the attack slider in Detection Threshold.
+When using multiple tone chimes, adjust the pitch and volume on all channels. Press “Save Config” again to save the settings.
 
-![Screenshot of smoothing-related area]()
+## Set Lighting
 
-Before closing the application, press Save Config again when it is working well.
+![Screenshot of lights](../img/test-lightslider.png)
 
-You can close the audio application with the ❌ button in the top right (top left for macOS). The settings of the video
-application are saved automatically. Click the exit button in the bottom right to close.
+Configure the lighting settings. First, drag the slider named Light Brightness left and right to check if the brightness of the lights changes. If the brightness does not change after moving it, then there is a problem with the DMX, lighting connection, or dimmer settings in the [Setup section](. /Troubleshooting/index.md#_7).
+
+This Light Brightness slider moves automatically according to the signal from the microphone. If the Light Brightness does not go all the way to the right when you hit the tone chime hard, adjust the sensitivity by **decreasing** the slider named Range-Input, which is located at the top, little by little.
+
+If the lights are flickering without any sound, increase the value of the Smoothing slider by **increasing** the value of the Light Brightness slider.
+
+## Settings for video
+
+![Screenshot of the video. The correspondence between the video and the channel number is shown. The top left is 1, the bottom left is 2, the top right is 3, the bottom right is 4, and so on, and the right end is placed on the grid with the top 7 and bottom 8](../img/video_screenshot.png)
+
+In the video system, a circle with a color set for each channel changes in size, depending on the volume. The tone chime channel numbers 1-8 are arranged on a grid with the top left channel 1, bottom left channel 2, top right channel 3, bottom channel 4, and so on, with top 7 and bottom 8 at the right end, as shown in the image in the on-screen layout.
+
+The color of the circle for each channel can be set with the color wheel in the settings window of the video application by clicking on the area where the colored rectangles are displayed in the same layout as on the actual screen.
+
+![Screenshot of the video setting window](../img/videocontroller_ss.png)
+
+When the tone chime is struck, the video effect of the circle that appears changes in three levels depending on the volume. The level at which the volume is divided into large, medium, and small is set by the sliders High, Mid, and Low in the Detection Threshold.
+
+![screenshot of video parameter section](../img/detection_threshold.png)
+
+In the “Video” section at the bottom of the application, you can see the actual volume change and the 3-step division position, so try tapping while changing the volume to find the perfect division point.
+
+If there is a fine response on the video as well as the lighting, try increasing the slider named “attack” in the Detection Threshold.
+
+Before exiting the application, make sure it is working well and press Save Config again.
+
+The settings in the video application will be saved automatically. Click the Exit button in the lower right corner of the screen to exit.
 
 > [!WARNING]
-> For the video application, the information will not be saved unless you exit using the exit button in the bottom right. Do not exit using the ❌ button on the window.
+> Exit the video application by clicking the Exit button in the lower right corner of the window, otherwise the information will not be saved. Do not exit with the ❌ button on the native window.

@@ -14,25 +14,38 @@ The original configuration uses 8 tone chimes and sends information to the compu
 
 | Category | Item | 8 Wireless | 2 Wireless | 2 Wired |
 | :------: | ---- | :--------: | :--------: | :-----: |
-| Instrument | Tone Chimes | 8 | 2 | 2 |
-| PC | Computer | 1 | 1 | 1 |
-| Video | Display or Projector | 1 | 1 | 1 |
-|  | Video Connection Cable (e.g., HDMI) | 1 | 1 | 1 |
-| Audio | Contact Microphones (Self-made) | 8 | 2 | 2 |
-|  | Audio Transmitter | 4 | 1 | - |
-|  | 3.5mm to 6.3mm Plug Converter | - | - | 2 |
-|  | Audio Interface | [A](#a) | [B](#b) | [B](#b) |
-| Lighting (Optional) | Dimmer Pack | 2 | 1 | 2 |
-|  | Incandescent Bulbs | 8 | 2 | 2 |
-|  | ENTEC DMX USB PRO | 1 | 1 | 1 |
-|  | XLR Cable | 2 | 2 | 2 |
-|  | XLRF3-M5 Pin Converter | 1 | 1 | 1 |
+|Instrument| Tone Chimes | 8 | 2 | 2 |
+|    PC    | Computer | 1 | 1 | 1 |
+|  Audio   | Contact Microphones (Self-made) | 8 | 2 | 2 |
+|          | Audio Transmitter | 4 | 1 | - |
+|          | 3.5mm to 6.3mm Plug Converter | - | - | 2 |
+|          | Audio Interface | [A](#a) | [B](#b) | [B](#b) |
+|  Video   | Display or Projector | 1 | 1 | 1 |
+|          | Video Connection Cable (e.g., HDMI) | 1 | 1 | 1 |
+| Lighting | Dimmer Pack | 2 | 1 | 2 |
+|          | Incandescent Bulbs | 8 | 2 | 2 |
+|          | ENTEC DMX USB PRO | 1 | 1 | 1 |
+|          | XLR Cable | 2 | 2 | 2 |
+|          | XLRF3-M5 Pin Converter | 1 | 1 | 1 |
+
+*It is not necessary to use both Video and Light system at the same time.
 
 ## Instrument
 
 [SUZUKI Tone Chimes](https://www.suzuki-music.co.jp/products/36403/)
 
 These are rod-shaped instruments similar to handbells. In the workshop, we use 8 notes selected from the middle-range basic set HB-250N. The 3D-printed attachment for attaching the microphone is compatible with the two sizes in this basic set.
+
+## Computer Equipment
+
+This document assumes a Windows environment, but it can also work in a macOS environment.
+
+Memory: 8~ GB
+OS: Windows 10 or later / macOS 13 (Ventura) or later
+
+When works with the Video system, the computer is required to be connected to external display or projector.
+
+## Audio Equipment
 
 ### Contact Microphone
 
@@ -44,31 +57,17 @@ These microphones can be easily made by soldering an inexpensive component calle
 
 For instructions on how to make the microphone, please refer to the document **[1-1 How to Make a Microphone](make-contact-microphone.en.md)**.
 
-## PC and Video Equipment
-
-- Computer
-
-This document assumes a Windows environment, but it can also work in a macOS environment.
-
-Memory: 8GB
-OS: Windows 10 or later / macOS 13 (Ventura) or later
-
-- Display or Projector and Screen (any model)
-- Cable to connect display to computer (e.g., HDMI) x1
-
-## Audio Equipment
-
-## Audio Interface
+### Audio Interface
 
 This is a device for inputting sound from the microphone into the computer.
 
-### A
+#### A
 
 [MOTU UltraLite Mk5](https://www.soundhouse.co.jp/products/detail/item/291119/)
 
 Other models such as RME FireFace UFX can be used if they have 8 or more line inputs available.
 
-### B
+#### B
 
 [Roland Rubix24](https://www.roland.com/jp/products/rubix24/)
 
@@ -76,9 +75,9 @@ If you already have A, you can use it without any issues.
 
 ## Audio Transmitter (for wireless connection)
 
-[SENNHEISER EW 122P G4-JB](https://www.soundhouse.co.jp/products/detail/item/254766/)
+[SENNHEISER EW 122P G4-JB（or EW112P）](https://www.soundhouse.co.jp/products/detail/item/254766/)
 
-The EW112P is also OK. We have chosen this transmitter because it can use up to 8 units at the same time. For configurations with fewer channels, a less expensive option would also work. Be careful of wireless channel interference with other B-band devices at the venue.
+We have chosen this transmitter because it can use up to 8 units at the same time. For configurations with fewer channels, a less expensive option would also work. Be careful of wireless channel interference with other B-band devices at the venue.
 
 Bluetooth or other transmitters can be used, but there may be latency issues.
 
@@ -110,3 +109,9 @@ Additionally, prepare the following cables and converter adapters:
 ### Light Bulbs
 
 Any incandescent bulb that plugs into a regular outlet, such as clip-on lights, will do. However, do not use fluorescent or LED bulbs. While dimmable ones can be used, they are not recommended as they completely turn off below a certain brightness level.
+
+## Video Equipments
+
+Use 1 projector or display. Any type or resolution are allowed.
+
+Prepare the appropriate cable(e.g. HDMI or DisplayPort) and adapters depending on the projector/display and the computer.

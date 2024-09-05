@@ -43,17 +43,17 @@ inside the shield wire, so cut these off if they are in the way.
 
 Turn on the soldering iron.
 
-![Image of pre-soldering]()
+![Image of pre-soldering](../../img/soldering_1.jpg)
 
 Apply pre-solder to the shield wire and core wire.
 
-![Image of insertion]()
+![Image of insertion](../../img/soldering_2.jpg)
 
 Remove the cover of the stereo mini plug, and insert the core wire into the hole of the Tip terminal (the terminal
 extending from the very center of the plug) and the shield wire into the hole of the Sleeve terminal (the long terminal
 extending from the outermost part of the plug). Leave the remaining terminal as is[^trs].
 
-![Image of completed soldering]()
+![Image of completed soldering](../../img/soldering_3.jpg)
 
 After soldering, lightly crimp the Sleeve terminal with pliers or similar, pass the plug cover through from the opposite
 side of the cable, and screw it in to secure.
@@ -65,38 +65,39 @@ considerations including ease of obtaining parts and simplicity of soldering.
 
 ### Passing the Heat Shrink Tube
 
-![Image of tube passed through]()
+![Image of tube passed through](../../img/soldering_4.jpg)
 
 Cut the heat shrink tube to about 2-3cm and pass it through the cable in advance. Note that you will not be able to do
 this after soldering the mic, so be careful.
 
 ### Soldering the Piezo Element
 
-![Image of stripped insulation]()
+Strip the insulation from the opposite end of the cable as before. Cut the cable coming out of the piezo element leaving about 2cm, and strip about 5mm of insulation.
 
-Strip the insulation from the opposite end of the cable as before. Cut the cable coming out of the piezo element leaving
-about 2cm, and strip about 5mm of insulation.
+![Image of soldering1](../../img/soldering.png)
 
-![Image of soldered connection]()
+![Image of soldering2](../../img/soldering_5.jpg)
 
 Solder the red wire from the piezo mic to the core wire, and the black to the shield wire[^nocable].
 
-![Image of glue gun protection]()
+[^nocable]: If using a piezo element without attached cables, solder the core wire to the inner ceramic part and the
+shield wire to the outer metal part. The ceramic part is particularly difficult for solder to adhere to, so we recommend
+using flux.
+
+![Image of glue gun protection](../../img/soldering_6.jpg)
 
 Protect the soldered parts with a glue gun to prevent short circuits. Also protect the soldered parts of the piezo and
 cable with the glue gun to prevent disconnection due to movement. (Be careful not to apply too much glue gun material as
 it may interfere when attaching the cover.)
 
-![Image of applying heat gun to shrink tube]()
+![Image of applying heat gun to shrink tube](../../img/soldering_7.jpg)
 
 Move the shrink tube to the piezo mic side and shrink it using a heat gun or lighter.
 
-If necessary, protect the piezo mic with liquid rubber (the kind that dries naturally) to prevent rust and
-deterioration.
+If necessary, protect the piezo mic with liquid rubber (the kind that dries naturally) to prevent rust and deterioration.
 
-[^nocable]: If using a piezo element without attached cables, solder the core wire to the inner ceramic part and the
-shield wire to the outer metal part. The ceramic part is particularly difficult for solder to adhere to, so we recommend
-using flux.
+![completed soldered piezo microphone](../../img/soldering_8.jpg)
+
 
 [Reference product: Yutaka Make Liquid Rubber](https://yutakamake.co.jp/product/origin/origin05/1630)
 

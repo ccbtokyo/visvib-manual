@@ -1,11 +1,20 @@
 # Preparation - Software Section
 
-## Installing Cycling '74 Max
+In VisVib, 2 application are used.
+
+- Audio/Light Application
+  - This is run on the audio programming environment Max by Cycling'74.
+- Video Application
+  - If only Lighting control is needed, no need to install this.
+
+## Audio/Light Application
+
+### Install Cycling '74 Max
 
 This is the software needed to run the sensor application. Max is a paid software, but it is free to use just for
 running completed programs.
 
-Download the version appropriate for your OS from the following URL:
+Download an appropriate installer for your OS from the following URL:
 
 <https://cycling74.com/downloads>
 
@@ -15,11 +24,15 @@ Please use the latest version (v8.3 or later).
 
 After downloading, unzip the file, run the installer application, and follow the instructions.
 
+> [!NOTE]
+> If you are using Mac(Apple Silicon CPU), make sure to check "Open with Rosetta" on the menu by right-clicking `/Applications/Max.app` and clicking "Show info".
+> This is because the external object for controlling DMX USB PRO is compatible with only Intel architecture.
+
 <!-- todo: Detailed explanation of installer dialog -->
 
-## Downloading the Sensor Application
+### Download the Audio/Light Application files
 
-You can download the latest version of the sensor application from the following URL:
+You can download the latest version of the Audio/Lught application (which is Max Project files) from the following URL:
 
 <https://github.com/ccbtokyo/ccbt_tonechime_sensor/archive/refs/heads/main.zip>
 
@@ -39,6 +52,6 @@ Please download the latest version of `ToneChime_VideoSystem.zip` from the follo
 
 After downloading, extract the zip file and place the entire folder in an accessible location such as the desktop.
 
-The main application is the ToneChime_VideoSystem application within the folder.
+The main application is the `ToneChime_VideoSystem` application within the folder.
 
 [The system may block the launch when starting for the first time after downloading, but this can be bypassed. Please refer to the troubleshooting section.](../../Troubleshooting/index.en.md#application-launch-is-blocked)

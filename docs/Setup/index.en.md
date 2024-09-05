@@ -62,7 +62,7 @@ For a 2-dimmer configuration, the overall connection will look like the image ab
 
 ![](../img/light_setup_4.JPG)
 
-At startup, check that the display of the first unit shows `A001`. If the first character is not `A`, press the "MODE" button to switch. If the number is not `001`, use the `▲``▼` buttons to change the value to `001`.
+At startup, check that the display of the first unit shows `A001`. If the first character is not `A`, press the "MODE" button to switch. If the number is not `001`, use the `▲` `▼` buttons to change the value to `001`.
 
 If using two dimmer packs, set the second one to `A005`.
 

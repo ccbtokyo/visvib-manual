@@ -54,14 +54,29 @@ There is a problem with the lighting equipment connection.
 - If the dimmer side is receiving the signal but not lighting up, there might be a problem with the light itself. Check
   if you are using incandescent bulbs and if the power to the light fixture itself is on.
 
+### The brightness of the lights is either completely off or on at maximum brightness.
+
+If the slider turns off the lights when it is set to 0 and turns on the lights at maximum brightness when it is set to 1 or higher, the dimmer may be set to switch mode.
+
+In the case of the DP-415R, when the “MENU” button is pressed several times, it is correct if it is labeled as `C1-d`, `C2-d`, `C3-d`, or `C4-d`. If it looks like `C1-S`, then you are in a switch mode that only switches on/off, so use the `▲` `▼` buttons to switch it to `d`. (See [DP-415R Manual](https://d295jznhem2tn9.cloudfront.net/ItemRelatedFiles/11443/dp-415r.pdf) p13.)
+
+### Two or more lights react at the same time.
+
+The dimmer may be set to a mode where one DMX signal channel controls multiple outlets.
+
+In the case of the DP-415R, press the “MENU” button several times to see if the display shows `CH:04`. If it is `CH:01` or `CH:02`, use the `▲` and `▼` buttons to switch to `04`.
+
+(See [DP-415R Manual](https://d295jznhem2tn9.cloudfront.net/ItemRelatedFiles/11443/dp-415r.pdf) p12.)
+
+
 ## Sound information is not reflected in the video
 
 Check the following in the "Device Communication" of the audio application:
 
 - Is the `LOCAL_MODE` button yellow? If not, click it.
 - Check if the "port" number in the bottom right matches the port number in the video application.
-    - By default, the communication port is set to 8888, but it may be conflicting with other applications. Try a few
+  - By default, the communication port is set to 8888, but it may be conflicting with other applications. Try a few
       arbitrary numbers after 8000.
 - The OS firewall settings may prevent proper communication between applications.
-    - If necessary, temporarily turn off the firewall settings. (Note that this poses a security risk if you are
+  - If necessary, temporarily turn off the firewall settings. (Note that this poses a security risk if you are
       connected to the internet.)

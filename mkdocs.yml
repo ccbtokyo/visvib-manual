@@ -21,10 +21,15 @@ extra_css:
 
 theme:
   name: material
+  favicon: img/favicon.svg
   language: ja
   features:
     #    - navigation.indexes
     - navigation.expand
+    - header.autohide
+    - search.suggest
+    - search.highlight
+    - md_in_html
   palette:
     scheme: default
     primary: black

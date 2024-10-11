@@ -1,4 +1,5 @@
-# VisVib：トーンチャイム→光／映像変換デバイス
+![ccbt_visvib_1810px630px](https://github.com/user-attachments/assets/c9d48ff7-d1ad-472d-a602-5238866c69bc)
+
 
 [![pages-build-deployment](https://github.com/ccbtokyo/amc-connect/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ccbtokyo/amc-connect/actions/workflows/pages/pages-build-deployment)
 

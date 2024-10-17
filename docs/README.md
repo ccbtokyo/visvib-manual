@@ -63,3 +63,8 @@
 ## ドキュメントの管理・開発
 
 [DEVELOPMENT](Development/index.md) を参照してください。
+
+## 関連リンク
+
+- [シビック・クリエイティブ・ベース東京［CCBT］](https://ccbt.rekibun.or.jp/)
+- [CCBT GitHub](https://github.com/ccbtokyo)

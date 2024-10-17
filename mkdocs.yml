@@ -20,6 +20,7 @@ extra_css:
   - css/iframe.css
 
 theme:
+  logo: img/ccbt_logo.png
   name: material
   favicon: img/favicon.svg
   language: ja

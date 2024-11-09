@@ -75,8 +75,6 @@ Check the following in the "Device Communication" of the audio application:
 
 - Is the `LOCAL_MODE` button yellow? If not, click it.
 - Check if the "port" number in the bottom right matches the port number in the video application.
-  - By default, the communication port is set to 8888, but it may be conflicting with other applications. Try a few
-      arbitrary numbers after 8000.
+  + By default, the communication port is set to 8888, but it may be conflicting with other applications. Try a few arbitrary numbers after 8000.
 - The OS firewall settings may prevent proper communication between applications.
-  - If necessary, temporarily turn off the firewall settings. (Note that this poses a security risk if you are
-      connected to the internet.)
+  + If necessary, temporarily turn off the firewall settings. (Note that this poses a security risk if you are connected to the internet.)

@@ -16,7 +16,14 @@ If using a 3D printed cover, you can secure it by pressing in the cover, but do 
 
 ## Overall Wiring Diagram
 
-[System Diagram]
+Wired Version, 1 Tone Chime and 1 Light Setting
+
+![Diagram of the overall system configuration. The system consists of one tone chime, lighting and video, all connected by cable. The tone chime and contact microphone are on the left side. The audio interface is connected to the cable that extends from there. The computer in the center of the image is connected by cable. Two cables extend from the computer to the right, and a display or projector is connected to the top right. On the bottom right, a DMX dimmer is connected via a USB-DMX converter, and a light bulb is connected to one of the four sockets.](../img/VisVib_diagrams.png)
+
+Wireless Version, 1 Tone Chime and 1 Light Setting
+
+![Overall system configuration diagram of the wireless version. It is almost the same as the diagram of the wired version above, but a wireless transmitter is inserted between the contact microphone and the audio interface.](../img/VisVib_diagrams2.png)
+
 
 ## Audio Connections
 

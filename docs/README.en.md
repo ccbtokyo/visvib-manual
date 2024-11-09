@@ -1,8 +1,7 @@
-# VisVib： Device for Converting Sound of Tone Chimes into Light and Video
+# ![CCBT VisVib](https://github.com/user-attachments/assets/c9d48ff7-d1ad-472d-a602-5238866c69bc)
+
 
 [![pages-build-deployment](https://github.com/ccbtokyo/amc-connect/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ccbtokyo/amc-connect/actions/workflows/pages/pages-build-deployment)
-
-Here's the English translation of the Markdown text you provided:
 
 ## Overview
 
@@ -17,7 +16,15 @@ To share the results of this project more widely, we have made the **VisVib** sy
 The development process of the device and workshop is published
 in [CCBT's Research Notes](https://ccbt.rekibun.or.jp/research-notes/diverstiy-and-inclusion-project-02).
 
-[Insert video here]
+<div class="video-container">
+<div class="video-wrapper">
+<iframe width="2014" height="1075" src="https://www.youtube.com/embed/hWaFJXojxO8" title="VisVibの使い方｜セットアップ編" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div class="video-wrapper">
+<iframe width="2014" height="1075" src="https://www.youtube.com/embed/KC6nucvaL8E" title="VisVibの使い方｜実践編" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+</div>
 
 ## Table of Contents
 

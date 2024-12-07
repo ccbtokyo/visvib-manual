@@ -78,3 +78,10 @@ Check the following in the "Device Communication" of the audio application:
   + By default, the communication port is set to 8888, but it may be conflicting with other applications. Try a few arbitrary numbers after 8000.
 - The OS firewall settings may prevent proper communication between applications.
   + If necessary, temporarily turn off the firewall settings. (Note that this poses a security risk if you are connected to the internet.)
+
+## Reponses of lights and visuals are delayed from playing (Latency Problem)
+
+Try reducing the value of `IO VECTOR SIZE` & `SIGNAL VECTOR SIZE` in the Audio Setting Menu. 64 is the recommended value for both. (Be careful the shorter buffer size uses more CPU resources.)
+
+> [!WARNING]
+> `SIGNAL VECTOR SIZE` can only be the same or larger size to `IO VECTOR SIZE`. Also, on Windows, `IO VECTOR SIZE` may take only a unique value set by a device driver configuration. Please refer to each audio interface's help manual to set it. For instance of MOTU Ultralite Mk5, open CueMix 5 Application, and choose the value on "Buffer Size" in "DEVICE" Menu.

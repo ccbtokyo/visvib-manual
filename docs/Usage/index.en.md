@@ -64,13 +64,16 @@ In the voice and lighting program, the tone chime pitch to be used is specified 
 For each channel, drag the “Pitch” dial to the name of the tone chime pitch you are using. Also, make sure the BPF button on the right is glowing yellow [^bpf].
 
 > [!NOTE]
-> On the software, the pitch of the black keys is marked in sharp, such as `A#4` or `D#4`, but on the tone chime it is marked in flat, such as `B♭4` or `E♭4`, so make sure you don't make a mistake.
+> On the software, the pitch of the black keys is marked in sharp, such as `A#4` or `D#4`, but on the tone chime it is marked in flat, such as `B♭4` or `E♭4`. Also, you can specify the pitch by text input.
 
 [^bpf]: When applying the VisVib system to percussion instruments with no sense of pitch, etc., turning off the BPF button may make them more responsive to sound. Note, however, that it will also increase the detection rate of noise.
 
 Next, set the volume (sensitivity) of the contact microphone. When you hit the tone chime, the volume of the sound will be displayed on the meter where it says gain on the application.
 
 Turn the audio interface's input gain knob up to the right until the meter does not turn red or yellow when you strike the tone chime strongly.
+
+> [!NOTE]
+> In some audio interfaces, gain can be set only through device driver software. For instance of Ultralite Mk5, gain for Ch3~8, can be set from CueMix 5 software.
 
 ![picture of the input knob section](../img/audiointerface_gain.jpg)
 

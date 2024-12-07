@@ -55,7 +55,7 @@ If there are no problems with the connection, click the “Save Config” button
 > [!NOTE]
 > The parameters are written in the file `data/main.json`, which can also be edited directly in the JSON data by editing `pattrstorage/slots/1/data`.
 
-## Set tone chime pitch and volume.
+## Set tone chime pitch and gain.
 
 ![screenshot around the pitch setting section](../img/adjust-pitch.png)
 
@@ -78,15 +78,20 @@ If the Peak Excessive Input light comes on at the audio interface side, or if th
 
 When using multiple tone chimes, adjust the pitch and volume on all channels. Press “Save Config” again to save the settings.
 
+> [!NOTE]
+> In general, because a wireless transmitter contains preamp, if you connect a contact microphone to the audio interfaces directly, input gain needed to be to set to larger value (about +20~40dB) than the wireless setting. For instance of MOTU UltraLite Mk5 with wired setting, hardware gain should be set to +20dB in CueMix 5 Application, and gain in the Max Application should be set around +12dB as well.
+
 ## Set Lighting
 
 ![Screenshot of lights](../img/test-lightslider.png)
 
 Configure the lighting settings. First, drag the slider named Light Brightness left and right to check if the brightness of the lights changes. If the brightness does not change after moving it, then there is a problem with the DMX, lighting connection, or dimmer settings in the [Setup section](../Troubleshooting/index.md#the-brightness-changes-with-the-slider).
 
-This Light Brightness slider moves automatically according to the signal from the microphone. If the Light Brightness does not go all the way to the right when you hit the tone chime hard, adjust the sensitivity by **decreasing** the slider named Range-Input, which is located at the top, little by little.
+This Light Brightness slider moves automatically according to the signal from the microphone. It is recommended setting that the slider jumps to right when the tone chime is hit and move to left slowly.
 
-If the lights are flickering without any sound, increase the value of the Smoothing slider by **increasing** the value of the Light Brightness slider.
+If the Light Brightness does not go all the way to the right when you hit the tone chime hard, adjust the sensitivity by **decreasing** the slider named Range-Input, which is located at the top, little by little. Conversely, if the slider sticks to the right for a while after you hit the chime, **increasing** the Range-Input value.
+
+If the lights are flickering without any sound even after you set the correct sensitivity, increase the value of the Smoothing up/down slider.
 
 ## Settings for video
 

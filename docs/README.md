@@ -1,4 +1,4 @@
-# ![CCBT VisVib](https://github.com/user-attachments/assets/c9d48ff7-d1ad-472d-a602-5238866c69bc)
+# ![CCBT VisVib](img/header.jpg)
 
 
 [![pages-build-deployment](https://github.com/ccbtokyo/amc-connect/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ccbtokyo/amc-connect/actions/workflows/pages/pages-build-deployment)

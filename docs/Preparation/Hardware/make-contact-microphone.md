@@ -109,4 +109,14 @@
 
 `cableclip`のモデルは、必要に応じてケーブルを端で留める際に使用してください。
 
+## Shadowコンタクトマイク用カバー
 
+（2025年12月更新）
+
+新たに、[SHADOWのコンタクトマイクSH-711](http://www.ariaguitars.com/jp/items/other-brands/shadow/transducer/sh-711/)用の3Dプリントカバーを設計しました。
+
+
+|     |カバー本体|ケーブル留め|
+|:---:| :-----: |:------:|
+|大|[piezo_cover_large.stl](../../3dmodels/shadow-cover_large.stl)|[cableclip_large.stl](../../3dmodels/shadow-clip_large.stl)|
+|小|[piezo_cover_small.stl](../../3dmodels/shadow-cover_small.stl)|[cableclip_small.stl](../../3dmodels/shadow-clip_small.stl)|

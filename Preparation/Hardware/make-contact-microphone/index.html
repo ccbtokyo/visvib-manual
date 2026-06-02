@@ -1,0 +1,1099 @@
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ccbtokyo.github.io/visvib-manual/Preparation/Hardware/make-contact-microphone/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../../Software/">
+      
+      
+        
+          <link rel="alternate" href="./" hreflang="ja">
+        
+          <link rel="alternate" href="../../../en/Preparation/Hardware/make-contact-microphone/" hreflang="en">
+        
+      
+      
+      <link rel="icon" href="../../../img/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>特製コンタクトマイクロフォン（振動センサー）の制作手順 - VisVib：トーンチャイム→光/映像変換デバイス</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,300i,400,400i,700,700i%7CM+PLUS+1+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans JP";--md-code-font:"M PLUS 1 Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/iframe.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href="../../.." title="VisVib：トーンチャイム→光/映像変換デバイス" class="md-header__button md-logo" aria-label="VisVib：トーンチャイム→光/映像変換デバイス" data-md-component="logo">
+      
+  <img src="../../../img/ccbt_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            VisVib：トーンチャイム→光/映像変換デバイス
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              特製コンタクトマイクロフォン（振動センサー）の制作手順
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="言語切り替え">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="ja" class="md-select__link">
+              日本語
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../en/Preparation/Hardware/make-contact-microphone/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="検索">
+        
+        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            検索を初期化
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ccbtokyo/visvib-manual/" title="リポジトリへ" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="ナビゲーション" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="VisVib：トーンチャイム→光/映像変換デバイス" class="md-nav__button md-logo" aria-label="VisVib：トーンチャイム→光/映像変換デバイス" data-md-component="logo">
+      
+  <img src="../../../img/ccbt_logo.png" alt="logo">
+
+    </a>
+    VisVib：トーンチャイム→光/映像変換デバイス
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ccbtokyo/visvib-manual/" title="リポジトリへ" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ホーム
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    準備
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    準備
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ハードウェア
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ハードウェア
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    準備-ハードウェア編
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    特製コンタクトマイクロフォン（振動センサー）の制作手順
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    特製コンタクトマイクロフォン（振動センサー）の制作手順
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        材料
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        道具
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        制作手順
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="制作手順">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ケーブルの被覆を剥く
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        プラグをはんだ付けする
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        熱収縮チューブを通す
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ピエゾ素子をはんだ付けする
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        トーンチャイム用アタッチメントカバーの印刷（省略可）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shadow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shadowコンタクトマイク用カバー
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ソフトウェア
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ソフトウェア
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Software/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    準備 - ソフトウェア編
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    セットアップ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    使い方
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Troubleshooting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    トラブルシューティング
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        材料
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        道具
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        制作手順
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="制作手順">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ケーブルの被覆を剥く
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        プラグをはんだ付けする
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        熱収縮チューブを通す
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ピエゾ素子をはんだ付けする
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        トーンチャイム用アタッチメントカバーの印刷（省略可）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shadow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shadowコンタクトマイク用カバー
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="_1">特製コンタクトマイクロフォン（振動センサー）の制作手順</h1>
+<h2 id="_2">材料</h2>
+<ul>
+<li>ピエゾ素子（圧電サウンダ） 直径27mmのもの リード線付き<br />
+    - <a href="https://akizukidenshi.com/catalog/g/g113209/">村田製作所</a>のものなど。</li>
+<li>1芯シールドケーブル 直径4mm 1つあたり2m程度<br />
+    - <a href="https://www.soundhouse.co.jp/products/detail/item/167365/">例：CANARE GS4</a><br />
+    - 2芯や4芯のマイクケーブルでも、うち1本だけを使う形で使用可能です。</li>
+<li>3.5mmステレオミニプラグ<br />
+    - <a href="https://www.soundhouse.co.jp/products/detail/item/310266/">例：CANARE F12S</a><br />
+    - ステレオの代わりに「3極」や「TRS」という名前のものでも大丈夫です。</li>
+<li>熱収縮チューブ 収縮前内径4.5mm 収縮後2mmのもの</li>
+</ul>
+<h2 id="_3">道具</h2>
+<ul>
+<li>ケーブルストリッパー（なければカッターやニッパーでも）</li>
+<li>はんだごて・はんだ</li>
+<li>グルーガン</li>
+<li>ヒートガンやライター（熱収縮チューブを縮める用）</li>
+</ul>
+<h2 id="_4">制作手順</h2>
+<h3 id="_5">ケーブルの被覆を剥く</h3>
+<p>ケーブルを2m程度にカットします。</p>
+<p><img alt="ケーブルの端の画像。シールド線（筒状になっている金属部）より内側を残して15mm程度を残して被覆を剥いである。右側にはオレンジ色のケーブルストリッパーが置いてある。" src="../../../img/cable2.jpg" /></p>
+<p>片側の端を、シールド線（筒状になっている金属部）より内側を残して15mm程度剥きます。</p>
+<p><img alt="ケーブル端の画像。シールド線部分が捻ってまとめてある。下の方には余分なシールド線を切り落としたくずが落ちている。" src="../../../img/cable3.jpg" /></p>
+<p>シールド線をほぐして、捻ってまとめておきます。捻った太さが内側の芯線の太さと同じ程度になるよう、ある程度切り落としてから捻るとはんだ付けしやすくなります。</p>
+<p><img alt="ケーブル端の画像。内側の芯線の被覆が5mm程度剥かれている。" src="../../../img/cable4.jpg" /></p>
+<p>内側の被覆も5mm程度剥がして、軽く捻っておきます。ケーブルによってはシールド線の内側に紙や布の被覆がある場合もあるので、邪魔にならないようカットしておきましょう。</p>
+<h3 id="_6">プラグをはんだ付けする</h3>
+<p>はんだごての電源を入れます。</p>
+<p><img alt="予備はんだをつけたところ。" src="../../../img/soldering_1.jpg" /></p>
+<p>シールド線と芯線に予備はんだを染み込ませておきます。</p>
+<p><img alt="差し込んだところ" src="../../../img/soldering_2.jpg" /></p>
+<p>ステレオミニプラグのカバーを外し、Tip端子（プラグの一番中心から伸びている端子）の穴に芯線を、Sleeve端子（プラグの一番外側から伸びている長い端子）の穴にシールド線を通します。残った1つの端子はそのままにしておきます<sup id="fnref:trs"><a class="footnote-ref" href="#fn:trs">1</a></sup>。</p>
+<p><img alt="はんだ付けし終わったところ" src="../../../img/soldering_3.jpg" /></p>
+<p>はんだ付けし終わったら、Sleeve端子を軽くペンチなどでかしめ、ケーブルの反対側からプラグのカバーを通し、ねじ込んで固定します。</p>
+<h3 id="_7">熱収縮チューブを通す</h3>
+<p><img alt="チューブを通した" src="../../../img/soldering_4.jpg" /></p>
+<p>熱収縮チューブを2~3cm程度にカットし、ケーブルにあらかじめ通しておきます。マイクをはんだ付けした後は通せなくなるので注意しましょう。</p>
+<h3 id="_8">ピエゾ素子をはんだ付けする</h3>
+<p>ケーブルの反対側の端を、先ほどと同様に被覆を剥いておきます。ピエゾ素子から出ているケーブルを2cm程度残してカットし、5mm程度被覆を剥いておきます。</p>
+<p><img alt="はんだづけしたところ1" src="../../../img/soldering.png" /></p>
+<p><img alt="はんだづけしたところ2" src="../../../img/soldering_5.jpg" /></p>
+<p>ピエゾマイクから出ているケーブルの、赤を芯線と、黒をシールド線とで互いにはんだ付けします<sup id="fnref:nocable"><a class="footnote-ref" href="#fn:nocable">2</a></sup>。</p>
+<p><img alt="グルーガン保護したところ" src="../../../img/soldering_6.jpg" /></p>
+<p>はんだ付けした部分同士がショートしないよう、グルーガンで保護しておきましょう。ピエゾとケーブルのはんだ付け部分も、動いて断線したりしないようグルーガンで保護しておきましょう。（あまりグルーガンを厚く盛りすぎると、カバーをつける際に干渉する可能性があるので気をつけてください。）</p>
+<p><img alt="ヒートガン当てているところ" src="../../../img/soldering_7.jpg" /></p>
+<p>収縮チューブをピエゾマイク側に移動させ、ヒートガンやライターで収縮させます。</p>
+<p><img alt="完成版" src="../../../img/soldering_8.jpg" /></p>
+<p>必要に応じて、液体ゴム（自然乾燥できるもの）でピエゾマイクを保護しておくと、錆びや劣化の防止になります。</p>
+<p><a href="https://yutakamake.co.jp/product/origin/origin05/1630">参考製品：ユタカメイク 液体ゴム</a></p>
+<h2 id="_9">トーンチャイム用アタッチメントカバーの印刷（省略可）</h2>
+<p>トーンチャイムへのセンサーの装着は、ひっつき虫のような再利用可能な粘着剤で行います。<br />
+オプションとして、ケーブルのはんだ付け部の保護や取り付けやすさのために、3Dプリンタで印刷可能なアタッチメントを制作しました。</p>
+<p><img alt="ピエゾカバー用の3Dモデルデータの画像。" src="../../../img/cover_3dmodel.png" /></p>
+<p>トーンチャイムは音程によって太さが2種類あるため、モデルデータも大小用意しています。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">カバー本体</th>
+<th style="text-align: center;">ケーブル留め</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">大</td>
+<td style="text-align: center;"><a href="../../../3dmodels/piezo_cover_large.stl">piezo_cover_large.stl</a></td>
+<td style="text-align: center;"><a href="../../../3dmodels/cableclip_large.stl">cableclip_large.stl</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">小</td>
+<td style="text-align: center;"><a href="../../../3dmodels/piezo_cover_small.stl">piezo_cover_small.stl</a></td>
+<td style="text-align: center;"><a href="../../../3dmodels/cableclip_small.stl">cableclip_small.stl</a></td>
+</tr>
+</tbody>
+</table>
+<p>3Dプリントで出力する際には、以下の画像のように縦向きにしてピエゾを取り付ける円盤部分が上になるように印刷してください。寝かせて印刷すると積層の方向的に、トーンチャイムにはめる際に割れる可能性があります。</p>
+<p><img alt="3Dプリント時の写真。縦向きで円盤が上になっている。" src="../../../img/3dprint_image.jpg" /></p>
+<p><code>cableclip</code>のモデルは、必要に応じてケーブルを端で留める際に使用してください。</p>
+<h2 id="shadow">Shadowコンタクトマイク用カバー</h2>
+<p>（2025年12月更新）</p>
+<p>新たに、<a href="http://www.ariaguitars.com/jp/items/other-brands/shadow/transducer/sh-711/">SHADOWのコンタクトマイクSH-711</a>用の3Dプリントカバーを設計しました。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">カバー本体</th>
+<th style="text-align: center;">ケーブル留め</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">大</td>
+<td style="text-align: center;"><a href="../../../3dmodels/shadow-cover_large.stl">piezo_cover_large.stl</a></td>
+<td style="text-align: center;"><a href="../../../3dmodels/shadow-clip_large.stl">cableclip_large.stl</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">小</td>
+<td style="text-align: center;"><a href="../../../3dmodels/shadow-cover_small.stl">piezo_cover_small.stl</a></td>
+<td style="text-align: center;"><a href="../../../3dmodels/shadow-clip_small.stl">cableclip_small.stl</a></td>
+</tr>
+</tbody>
+</table>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:trs">
+<p>今回の接続は、オーディオインターフェースのバランス入力に、アンバランス出力のピエゾマイクを接続する方法になります。今回接続していないRing端子をSleeve端子とショートさせる接続方法もあり、モノラル(TS)のプラグを使用すれば自動的にその接続になります。今回は、部品の入手しやすさ、はんだ付けの簡単さなどから総合的に判断してこの接続にしています。&#160;<a class="footnote-backref" href="#fnref:trs" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:nocable">
+<p>ケーブルの付いていないピエゾ素子を使う場合、芯線を内側のセラミック部分、シールド線を外側の金属部分にはんだ付けしましょう。セラミック部分には特にはんだが乗りにくいため、フラックスなどを使用することをお勧めします。&#160;<a class="footnote-backref" href="#fnref:nocable" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      ©2024 AMC Connect AMC + CCBT + Tokyo Bunka Kaikan
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.expand", "header.autohide", "search.suggest", "search.highlight", "md_in_html"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,1068 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ccbtokyo.github.io/visvib-manual/en/Troubleshooting/">
+      
+      
+        <link rel="prev" href="../Usage/">
+      
+      
+      
+        
+          <link rel="alternate" href="../../Troubleshooting/" hreflang="ja">
+        
+          <link rel="alternate" href="./" hreflang="en">
+        
+      
+      
+      <link rel="icon" href="../../img/favicon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Troubleshooting - VisVib: Tone Chime to Light/Video Conversion Device</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,300i,400,400i,700,700i%7CM+PLUS+1+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Noto Sans JP";--md-code-font:"M PLUS 1 Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/iframe.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#troubleshooting" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../" title="VisVib: Tone Chime to Light/Video Conversion Device" class="md-header__button md-logo" aria-label="VisVib: Tone Chime to Light/Video Conversion Device" data-md-component="logo">
+      
+  <img src="../../img/ccbt_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            VisVib: Tone Chime to Light/Video Conversion Device
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Troubleshooting
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../Troubleshooting/" hreflang="ja" class="md-select__link">
+              日本語
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ccbtokyo/visvib-manual/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../" title="VisVib: Tone Chime to Light/Video Conversion Device" class="md-nav__button md-logo" aria-label="VisVib: Tone Chime to Light/Video Conversion Device" data-md-component="logo">
+      
+  <img src="../../img/ccbt_logo.png" alt="logo">
+
+    </a>
+    VisVib: Tone Chime to Light/Video Conversion Device
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ccbtokyo/visvib-manual/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preparation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Preparation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hardware
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Hardware
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Preparation/Hardware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preparation - Hardware Section
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Preparation/Hardware/make-contact-microphone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Production Procedure for Custom Contact Microphone (Vibration Sensor)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Software
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Software
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Preparation/Software/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preparation - Software Section
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Usage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#application-launch-is-blocked" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Application launch is blocked
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#audio-application-doesnt-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Audio application doesn't start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#no-sound-response-in-the-audio-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        No sound response in the audio application
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sound-information-is-not-reflected-in-the-lighting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sound information is not reflected in the lighting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sound information is not reflected in the lighting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-brightness-changes-with-the-slider" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The brightness changes with the slider
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-brightness-does-not-change-even-with-the-slider" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The brightness does not change even with the slider
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-brightness-of-the-lights-is-either-completely-off-or-on-at-maximum-brightness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The brightness of the lights is either completely off or on at maximum brightness.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#two-or-more-lights-react-at-the-same-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Two or more lights react at the same time.
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sound-information-is-not-reflected-in-the-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sound information is not reflected in the video
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reponses-of-lights-and-visuals-are-delayed-from-playing-latency-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reponses of lights and visuals are delayed from playing (Latency Problem)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#application-launch-is-blocked" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Application launch is blocked
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#audio-application-doesnt-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Audio application doesn't start
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#no-sound-response-in-the-audio-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        No sound response in the audio application
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sound-information-is-not-reflected-in-the-lighting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sound information is not reflected in the lighting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sound information is not reflected in the lighting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-brightness-changes-with-the-slider" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The brightness changes with the slider
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-brightness-does-not-change-even-with-the-slider" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The brightness does not change even with the slider
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-brightness-of-the-lights-is-either-completely-off-or-on-at-maximum-brightness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The brightness of the lights is either completely off or on at maximum brightness.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#two-or-more-lights-react-at-the-same-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Two or more lights react at the same time.
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sound-information-is-not-reflected-in-the-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sound information is not reflected in the video
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reponses-of-lights-and-visuals-are-delayed-from-playing-latency-problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reponses of lights and visuals are delayed from playing (Latency Problem)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="troubleshooting">Troubleshooting</h1>
+<h2 id="application-launch-is-blocked">Application launch is blocked</h2>
+<p>On both Windows and macOS, when you first launch an application after downloading it, the security system may block its<br />
+startup.</p>
+<p><img alt="Screenshot of a Windows dialog saying &quot;SmartScreen can not be run right now&quot;. Buttons &quot;Run&quot; and &quot;Don't run&quot; are shown in the bottom right." src="../../img/windowsdefender1.png" /></p>
+<p>On Windows, if you are not connected to the internet, you will see a dialog saying "SmartScreen can't be run right now".<br />
+In this case, click "Run" to start the application.</p>
+<p><img alt="Screenshot of a dialog saying &quot;Windows protected your PC&quot;. Only the &quot;Don't run&quot; button is shown in the bottom right. The phrase &quot;More info&quot; at the end of the dialog text is surrounded by an orange dotted line." src="../../img/windowsdefender2.png" /></p>
+<p>If you are connected to the internet, you will see a dialog saying "Windows protected your PC", but if you click on "<br />
+More info", a "Run" button will appear, allowing you to start the application.</p>
+<p><img alt="The same dialog as before, after clicking &quot;More info&quot;. A new &quot;Run&quot; button has appeared in the bottom right." src="../../img/windowsdefender3.png" /></p>
+<p>On macOS, instead of double-clicking the application file in Finder or on the desktop, right-click and select "Open"<br />
+from the menu. This method will make an option to launch the application appear in the dialog.</p>
+<p>On both Windows and macOS, once you have launched the application once, you can start it normally like any other<br />
+application afterwards.</p>
+<h2 id="audio-application-doesnt-start">Audio application doesn't start</h2>
+<p><a href="../Preparation/Software/#install-cycling-74-max">Please check if Max is installed correctly.</a></p>
+<h2 id="no-sound-response-in-the-audio-application">No sound response in the audio application</h2>
+<ul>
+<li>Click "Audio Settings" in the application and check if the "INPUT DEVICES" in the menu of the window that appears<br />
+  shows the name of the audio interface you are using.</li>
+<li>Check if the "DSP" button is lit up green. If not, click it to start DSP.</li>
+<li>Make sure the pitch of the tone chime you are using matches the note name on the "Pitch" dial in the application.</li>
+</ul>
+<h2 id="sound-information-is-not-reflected-in-the-lighting">Sound information is not reflected in the lighting</h2>
+<p>First, check if the brightness of the lights changes when you drag the Light Brightness slider in the audio application.</p>
+<h3 id="the-brightness-changes-with-the-slider">The brightness changes with the slider</h3>
+<p>The connection to the lighting equipment itself is not a problem. After confirming that "Output" in the "Range" section<br />
+of the audio application is set to 255, try setting "Input" to a small value like 0.07 and see if there is a response.</p>
+<h3 id="the-brightness-does-not-change-even-with-the-slider">The brightness does not change even with the slider</h3>
+<p>There is a problem with the lighting equipment connection.</p>
+<ul>
+<li>Check if the LED next to the USB connector on the DMX USB PRO lights up when you move the slider. If there is no<br />
+  response, the audio program is not recognizing the DMX USB PRO. Check if there are any other USB devices connected.</li>
+<li>Check if the LEDs on the dimmer side with numbers 1, 2, 3, 4 are lit. If not, either the DMX cable connection is not<br />
+  made or the channel settings are incorrect.</li>
+<li>If the dimmer side is receiving the signal but not lighting up, there might be a problem with the light itself. Check<br />
+  if you are using incandescent bulbs and if the power to the light fixture itself is on.</li>
+</ul>
+<h3 id="the-brightness-of-the-lights-is-either-completely-off-or-on-at-maximum-brightness">The brightness of the lights is either completely off or on at maximum brightness.</h3>
+<p>If the slider turns off the lights when it is set to 0 and turns on the lights at maximum brightness when it is set to 1 or higher, the dimmer may be set to switch mode.</p>
+<p>In the case of the DP-415R, when the “MENU” button is pressed several times, it is correct if it is labeled as <code>C1-d</code>, <code>C2-d</code>, <code>C3-d</code>, or <code>C4-d</code>. If it looks like <code>C1-S</code>, then you are in a switch mode that only switches on/off, so use the <code>▲</code> <code>▼</code> buttons to switch it to <code>d</code>. (See <a href="https://d295jznhem2tn9.cloudfront.net/ItemRelatedFiles/11443/dp-415r.pdf">DP-415R Manual</a> p13.)</p>
+<h3 id="two-or-more-lights-react-at-the-same-time">Two or more lights react at the same time.</h3>
+<p>The dimmer may be set to a mode where one DMX signal channel controls multiple outlets.</p>
+<p>In the case of the DP-415R, press the “MENU” button several times to see if the display shows <code>CH:04</code>. If it is <code>CH:01</code> or <code>CH:02</code>, use the <code>▲</code> and <code>▼</code> buttons to switch to <code>04</code>.</p>
+<p>(See <a href="https://d295jznhem2tn9.cloudfront.net/ItemRelatedFiles/11443/dp-415r.pdf">DP-415R Manual</a> p12.)</p>
+<h2 id="sound-information-is-not-reflected-in-the-video">Sound information is not reflected in the video</h2>
+<p>Check the following in the "Device Communication" of the audio application:</p>
+<ul>
+<li>Is the <code>LOCAL_MODE</code> button yellow? If not, click it.</li>
+<li>Check if the "port" number in the bottom right matches the port number in the video application.<ul>
+<li>By default, the communication port is set to 8888, but it may be conflicting with other applications. Try a few arbitrary numbers after 8000.</li>
+</ul>
+</li>
+<li>The OS firewall settings may prevent proper communication between applications.<ul>
+<li>If necessary, temporarily turn off the firewall settings. (Note that this poses a security risk if you are connected to the internet.)</li>
+</ul>
+</li>
+</ul>
+<h2 id="reponses-of-lights-and-visuals-are-delayed-from-playing-latency-problem">Reponses of lights and visuals are delayed from playing (Latency Problem)</h2>
+<p>Try reducing the value of <code>IO VECTOR SIZE</code> &amp; <code>SIGNAL VECTOR SIZE</code> in the Audio Setting Menu. 64 is the recommended value for both. (Be careful the shorter buffer size uses more CPU resources.)</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><code>SIGNAL VECTOR SIZE</code> can only be the same or larger size to <code>IO VECTOR SIZE</code>. Also, on Windows, <code>IO VECTOR SIZE</code> may take only a unique value set by a device driver configuration. Please refer to each audio interface's help manual to set it. For instance of MOTU Ultralite Mk5, open CueMix 5 Application, and choose the value on "Buffer Size" in "DEVICE" Menu.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      ©2024 AMC Connect AMC + CCBT + Tokyo Bunka Kaikan
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.expand", "header.autohide", "search.suggest", "search.highlight", "md_in_html"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
